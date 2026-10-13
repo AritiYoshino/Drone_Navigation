@@ -1,0 +1,1437 @@
+{
+  "workspace_packages": [
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "rosmsg_tcp_bridge",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/planner/rosmsg_tcp_bridge/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "roscpp",
+        "std_msgs",
+        "traj_utils"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "traj_utils",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/planner/traj_utils/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "message_generation",
+        "message_runtime",
+        "roscpp",
+        "std_msgs"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "path_searching",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/planner/path_searching/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "plan_env",
+        "roscpp",
+        "rospy",
+        "std_msgs"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "drone_detect",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/planner/drone_detect/package.xml",
+      "declared_dependencies": [
+        "boost",
+        "catkin",
+        "eigen",
+        "roscpp",
+        "roslint",
+        "sensor_msgs"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "plan_env",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/planner/plan_env/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "roscpp",
+        "rospy",
+        "std_msgs"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "bspline_opt",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/planner/bspline_opt/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "path_searching",
+        "plan_env",
+        "roscpp",
+        "rospy",
+        "std_msgs",
+        "traj_utils"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "ego_planner",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/planner/plan_manage/package.xml",
+      "declared_dependencies": [
+        "bspline_opt",
+        "catkin",
+        "message_runtime",
+        "path_searching",
+        "plan_env",
+        "roscpp",
+        "std_msgs",
+        "traj_utils"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "px4ctrl",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/realflight_modules/px4ctrl/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "cmake_modules",
+        "geometry_msgs",
+        "mavros",
+        "nav_msgs",
+        "quadrotor_msgs",
+        "roscpp",
+        "rospy",
+        "sensor_msgs",
+        "uav_utils"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "so3_control",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/uav_simulator/so3_control/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "cmake_utils",
+        "nav_msgs",
+        "nodelet",
+        "quadrotor_msgs",
+        "roscpp",
+        "tf"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "local_sensing_node",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/uav_simulator/local_sensing/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "cmake_modules",
+        "cv_bridge",
+        "dynamic_reconfigure",
+        "image_transport",
+        "pcl_ros",
+        "quadrotor_msgs",
+        "roscpp",
+        "roslib",
+        "svo_msgs",
+        "vikit_ros"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "mockamap",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/uav_simulator/mockamap/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "pcl_conversions",
+        "pcl_ros",
+        "roscpp"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "odom_visualization",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/uav_simulator/odom_visualization/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "nav_msgs",
+        "pose_utils",
+        "roscpp",
+        "sensor_msgs",
+        "tf",
+        "visualization_msgs"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "poscmd_2_odom",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/uav_simulator/fake_drone/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "nav_msgs",
+        "quadrotor_msgs",
+        "roscpp"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "so3_quadrotor_simulator",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/uav_simulator/so3_quadrotor_simulator/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "cmake_utils",
+        "quadrotor_msgs",
+        "roscpp",
+        "uav_utils"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "map_generator",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/uav_simulator/map_generator/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "roscpp",
+        "std_msgs"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "quadrotor_msgs",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/utils/quadrotor_msgs/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "cmake_utils",
+        "geometry_msgs",
+        "message_generation",
+        "message_runtime",
+        "nav_msgs"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "cmake_utils",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/utils/cmake_utils/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "cmake_modules",
+        "roscpp"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "decomp_ros_msgs",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/utils/DecompROS/decomp_ros_msgs/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "catkin_simple",
+        "geometry_msgs",
+        "message_generation",
+        "message_runtime"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "decomp_ros_utils",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/utils/DecompROS/decomp_ros_utils/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "catkin_simple",
+        "decomp_ros_msgs",
+        "roscpp",
+        "rviz"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "pose_utils",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/utils/pose_utils/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "roscpp"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "catkin_simple",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/utils/catkin_simple/package.xml",
+      "declared_dependencies": [
+        "catkin"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": " rviz_plugins ",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/utils/rviz_plugins/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "libqt5-core",
+        "libqt5-gui",
+        "libqt5-widgets",
+        "message_runtime",
+        "multi_map_server",
+        "qtbase5-dev",
+        "roscpp",
+        "rviz"
+      ]
+    },
+    {
+      "workspace": "Fast-Drone-250-master",
+      "package": "uav_utils",
+      "source_manifest": "/home/amov/Fast-Drone-250-master/src/utils/uav_utils/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "cmake_modules",
+        "cmake_utils",
+        "roscpp",
+        "rospy"
+      ]
+    },
+    {
+      "workspace": "vinsf_gpu_ws",
+      "package": "vins",
+      "source_manifest": "/home/amov/vinsf_gpu_ws/src/VINS-Fusion/vins_estimator/package.xml",
+      "declared_dependencies": [
+        "camera_models",
+        "catkin",
+        "image_transport",
+        "roscpp"
+      ]
+    },
+    {
+      "workspace": "vinsf_gpu_ws",
+      "package": "camera_models",
+      "source_manifest": "/home/amov/vinsf_gpu_ws/src/VINS-Fusion/camera_models/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "roscpp",
+        "std_msgs"
+      ]
+    },
+    {
+      "workspace": "vinsf_gpu_ws",
+      "package": "global_fusion",
+      "source_manifest": "/home/amov/vinsf_gpu_ws/src/VINS-Fusion/global_fusion/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "roscpp",
+        "rospy",
+        "std_msgs"
+      ]
+    },
+    {
+      "workspace": "vinsf_gpu_ws",
+      "package": "loop_fusion",
+      "source_manifest": "/home/amov/vinsf_gpu_ws/src/VINS-Fusion/loop_fusion/package.xml",
+      "declared_dependencies": [
+        "camera_models",
+        "catkin"
+      ]
+    },
+    {
+      "workspace": "vinsf_gpu_ws",
+      "package": "cv_bridge",
+      "source_manifest": "/home/amov/vinsf_gpu_ws/src/vision_opencv/cv_bridge/package.xml",
+      "declared_dependencies": [
+        "boost",
+        "catkin",
+        "libopencv-dev",
+        "python",
+        "python-opencv",
+        "rosconsole",
+        "sensor_msgs"
+      ]
+    },
+    {
+      "workspace": "vinsf_gpu_ws",
+      "package": "image_geometry",
+      "source_manifest": "/home/amov/vinsf_gpu_ws/src/vision_opencv/image_geometry/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "libopencv-dev",
+        "sensor_msgs"
+      ]
+    },
+    {
+      "workspace": "vinsf_gpu_ws",
+      "package": "opencv_tests",
+      "source_manifest": "/home/amov/vinsf_gpu_ws/src/vision_opencv/opencv_tests/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "cv_bridge"
+      ]
+    },
+    {
+      "workspace": "vinsf_gpu_ws",
+      "package": "vision_opencv",
+      "source_manifest": "/home/amov/vinsf_gpu_ws/src/vision_opencv/vision_opencv/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "cv_bridge",
+        "image_geometry"
+      ]
+    },
+    {
+      "workspace": "realsense_ws",
+      "package": "vision_to_mavros",
+      "source_manifest": "/home/amov/realsense_ws/src/vision_to_mavros/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "cv_bridge",
+        "image_transport",
+        "roscpp",
+        "rospy",
+        "sensor_msgs",
+        "std_msgs",
+        "tf"
+      ]
+    },
+    {
+      "workspace": "realsense_ws",
+      "package": "realsense2_description",
+      "source_manifest": "/home/amov/realsense_ws/src/realsense-ros/realsense2_description/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "xacro"
+      ]
+    },
+    {
+      "workspace": "realsense_ws",
+      "package": "realsense2_camera",
+      "source_manifest": "/home/amov/realsense_ws/src/realsense-ros/realsense2_camera/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "cv_bridge",
+        "ddynamic_reconfigure",
+        "diagnostic_updater",
+        "eigen",
+        "genmsg",
+        "image_transport",
+        "librealsense2",
+        "message_runtime",
+        "nav_msgs",
+        "nodelet",
+        "roscpp",
+        "sensor_msgs",
+        "std_msgs",
+        "tf"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "opencv2_catkin",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/opencv2_catkin/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "catkin_simple",
+        "libopencv-dev"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "ethz_apriltag2",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/ethz_apriltag2/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "eigen",
+        "libopencv-dev",
+        "libv4l-dev"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "kalibr",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/package.xml",
+      "declared_dependencies": [
+        "aslam_backend",
+        "aslam_backend_expressions",
+        "aslam_backend_python",
+        "aslam_cameras_april",
+        "aslam_cv_backend_python",
+        "aslam_cv_python",
+        "aslam_splines_python",
+        "catkin",
+        "incremental_calibration_python",
+        "numpy_eigen",
+        "python_module",
+        "sm_python",
+        "sparse_block_matrix"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "catkin_simple",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/catkin_simple/package.xml",
+      "declared_dependencies": [
+        "catkin"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "sm_logging",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_logging/package.xml",
+      "declared_dependencies": [
+        "catkin"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "numpy_eigen",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/numpy_eigen/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "eigen",
+        "python_module"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "python_module",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/python_module/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "python-numpy",
+        "python3-numpy"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "sm_common",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_common/package.xml",
+      "declared_dependencies": [
+        "boost",
+        "catkin"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "sm_boost",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_boost/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "sm_common"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "sm_random",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_random/package.xml",
+      "declared_dependencies": [
+        "catkin"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "sm_matrix_archive",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_matrix_archive/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "eigen",
+        "sm_common"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "sm_eigen",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_eigen/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "eigen",
+        "sm_common",
+        "sm_random"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "sm_python",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_python/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "eigen",
+        "numpy_eigen",
+        "python-wxtools",
+        "python_module",
+        "sm_common",
+        "sm_kinematics",
+        "sm_logging",
+        "sm_matrix_archive",
+        "sm_property_tree",
+        "sm_timing"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "sm_timing",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_timing/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "sm_common",
+        "sm_random"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "sm_kinematics",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_kinematics/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "eigen",
+        "sm_boost",
+        "sm_common",
+        "sm_eigen",
+        "sm_random"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "sm_property_tree",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_property_tree/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "sm_common"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "sm_opencv",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_opencv/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "sm_common"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_splines",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_nonparametric_estimation/aslam_splines/package.xml",
+      "declared_dependencies": [
+        "aslam_backend",
+        "aslam_backend_expressions",
+        "bsplines",
+        "catkin",
+        "eigen",
+        "numpy_eigen",
+        "opencv2_catkin",
+        "sm_common",
+        "sm_kinematics",
+        "sm_timing",
+        "sparse_block_matrix",
+        "suitesparse"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_splines_python",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_nonparametric_estimation/aslam_splines_python/package.xml",
+      "declared_dependencies": [
+        "aslam_backend",
+        "aslam_backend_expressions",
+        "aslam_backend_python",
+        "aslam_cameras",
+        "aslam_splines",
+        "aslam_time",
+        "bsplines",
+        "bsplines_python",
+        "catkin",
+        "numpy_eigen",
+        "opencv2_catkin",
+        "python_module",
+        "sm_common",
+        "sm_kinematics",
+        "sm_logging",
+        "sm_opencv",
+        "sm_property_tree",
+        "sm_timing",
+        "sparse_block_matrix",
+        "suitesparse"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "bsplines_python",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_nonparametric_estimation/bsplines_python/package.xml",
+      "declared_dependencies": [
+        "bsplines",
+        "catkin",
+        "numpy_eigen",
+        "python_module",
+        "sm_common",
+        "sm_kinematics",
+        "sparse_block_matrix",
+        "suitesparse"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "bsplines",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_nonparametric_estimation/bsplines/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "sm_common",
+        "sm_eigen",
+        "sm_kinematics",
+        "sm_timing",
+        "sparse_block_matrix",
+        "suitesparse"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_cv_backend",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cv_backend/package.xml",
+      "declared_dependencies": [
+        "aslam_backend",
+        "aslam_backend_expressions",
+        "aslam_cameras",
+        "aslam_time",
+        "catkin",
+        "opencv2_catkin",
+        "sm_boost",
+        "sm_common",
+        "sm_eigen",
+        "sm_kinematics",
+        "sm_logging",
+        "sm_opencv",
+        "sm_property_tree",
+        "sm_timing",
+        "sparse_block_matrix",
+        "suitesparse"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_time",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_time/package.xml",
+      "declared_dependencies": [
+        "boost",
+        "catkin"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_imgproc",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_imgproc/package.xml",
+      "declared_dependencies": [
+        "aslam_cameras",
+        "aslam_time",
+        "catkin",
+        "numpy_eigen",
+        "opencv2_catkin",
+        "sm_boost",
+        "sm_common",
+        "sm_eigen",
+        "sm_kinematics",
+        "sm_logging",
+        "sm_opencv",
+        "sm_property_tree",
+        "sm_random"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_cv_serialization",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cv_serialization/package.xml",
+      "declared_dependencies": [
+        "aslam_cameras",
+        "aslam_time",
+        "catkin",
+        "eigen",
+        "opencv2_catkin",
+        "sm_boost",
+        "sm_common",
+        "sm_eigen",
+        "sm_kinematics",
+        "sm_logging",
+        "sm_opencv",
+        "sm_property_tree",
+        "sm_random"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_cv_backend_python",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cv_backend_python/package.xml",
+      "declared_dependencies": [
+        "aslam_backend",
+        "aslam_backend_expressions",
+        "aslam_backend_python",
+        "aslam_cameras",
+        "aslam_cv_backend",
+        "aslam_cv_error_terms",
+        "aslam_cv_python",
+        "aslam_splines",
+        "aslam_time",
+        "catkin",
+        "numpy_eigen",
+        "opencv2_catkin",
+        "python_module",
+        "sm_common",
+        "sm_opencv",
+        "sm_python",
+        "sparse_block_matrix",
+        "suitesparse"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_cv_python",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cv_python/package.xml",
+      "declared_dependencies": [
+        "aslam_cameras",
+        "aslam_cv_serialization",
+        "aslam_imgproc",
+        "aslam_time",
+        "catkin",
+        "opencv2_catkin",
+        "python_module",
+        "sm_common",
+        "sm_eigen",
+        "sm_kinematics",
+        "sm_opencv",
+        "sm_python"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_cv_error_terms",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cv_error_terms/package.xml",
+      "declared_dependencies": [
+        "aslam_backend",
+        "aslam_backend_expressions",
+        "aslam_cameras",
+        "aslam_cv_backend",
+        "aslam_splines",
+        "aslam_time",
+        "catkin",
+        "opencv2_catkin",
+        "sm_boost",
+        "sm_eigen",
+        "sm_kinematics",
+        "sm_logging",
+        "sm_opencv",
+        "sm_property_tree",
+        "sm_timing",
+        "sparse_block_matrix",
+        "suitesparse"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_cameras",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cameras/package.xml",
+      "declared_dependencies": [
+        "aslam_time",
+        "catkin",
+        "opencv2_catkin",
+        "sm_boost",
+        "sm_common",
+        "sm_eigen",
+        "sm_kinematics",
+        "sm_logging",
+        "sm_opencv",
+        "sm_property_tree",
+        "sm_random"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_cameras_april",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cameras_april/package.xml",
+      "declared_dependencies": [
+        "aslam_cameras",
+        "catkin",
+        "ethz_apriltag2",
+        "numpy_eigen",
+        "python_module",
+        "sm_boost",
+        "sm_common",
+        "sm_eigen",
+        "sm_logging",
+        "sm_python"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "incremental_calibration",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_incremental_calibration/incremental_calibration/package.xml",
+      "declared_dependencies": [
+        "aslam_backend",
+        "catkin",
+        "sm_eigen",
+        "suitesparse",
+        "tbb"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "incremental_calibration_python",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_incremental_calibration/incremental_calibration_python/package.xml",
+      "declared_dependencies": [
+        "aslam_backend",
+        "catkin",
+        "catkin_simple",
+        "incremental_calibration",
+        "numpy_eigen",
+        "python_module"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_backend_python",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_optimizer/aslam_backend_python/package.xml",
+      "declared_dependencies": [
+        "aslam_backend",
+        "aslam_backend_expressions",
+        "catkin",
+        "numpy_eigen",
+        "python_module",
+        "sm_common",
+        "sm_kinematics",
+        "sm_timing",
+        "sparse_block_matrix",
+        "suitesparse"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_backend",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_optimizer/aslam_backend/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "sm_boost",
+        "sm_logging",
+        "sm_property_tree",
+        "sm_random",
+        "sm_timing",
+        "sparse_block_matrix",
+        "suitesparse",
+        "tbb"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "aslam_backend_expressions",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_optimizer/aslam_backend_expressions/package.xml",
+      "declared_dependencies": [
+        "aslam_backend",
+        "catkin",
+        "eigen",
+        "sm_boost",
+        "sm_kinematics",
+        "sm_random",
+        "sm_timing",
+        "sparse_block_matrix",
+        "suitesparse"
+      ]
+    },
+    {
+      "workspace": "kalibr_ws",
+      "package": "sparse_block_matrix",
+      "source_manifest": "/home/amov/kalibr_ws/src/kalibr/aslam_optimizer/sparse_block_matrix/package.xml",
+      "declared_dependencies": [
+        "catkin",
+        "eigen",
+        "sm_common",
+        "sm_eigen",
+        "suitesparse",
+        "tbb"
+      ]
+    }
+  ],
+  "internal_package_providers": {
+    "rosmsg_tcp_bridge": [
+      "/home/amov/Fast-Drone-250-master/src/planner/rosmsg_tcp_bridge/package.xml"
+    ],
+    "traj_utils": [
+      "/home/amov/Fast-Drone-250-master/src/planner/traj_utils/package.xml"
+    ],
+    "path_searching": [
+      "/home/amov/Fast-Drone-250-master/src/planner/path_searching/package.xml"
+    ],
+    "drone_detect": [
+      "/home/amov/Fast-Drone-250-master/src/planner/drone_detect/package.xml"
+    ],
+    "plan_env": [
+      "/home/amov/Fast-Drone-250-master/src/planner/plan_env/package.xml"
+    ],
+    "bspline_opt": [
+      "/home/amov/Fast-Drone-250-master/src/planner/bspline_opt/package.xml"
+    ],
+    "ego_planner": [
+      "/home/amov/Fast-Drone-250-master/src/planner/plan_manage/package.xml"
+    ],
+    "px4ctrl": [
+      "/home/amov/Fast-Drone-250-master/src/realflight_modules/px4ctrl/package.xml"
+    ],
+    "so3_control": [
+      "/home/amov/Fast-Drone-250-master/src/uav_simulator/so3_control/package.xml"
+    ],
+    "local_sensing_node": [
+      "/home/amov/Fast-Drone-250-master/src/uav_simulator/local_sensing/package.xml"
+    ],
+    "mockamap": [
+      "/home/amov/Fast-Drone-250-master/src/uav_simulator/mockamap/package.xml"
+    ],
+    "odom_visualization": [
+      "/home/amov/Fast-Drone-250-master/src/uav_simulator/odom_visualization/package.xml"
+    ],
+    "poscmd_2_odom": [
+      "/home/amov/Fast-Drone-250-master/src/uav_simulator/fake_drone/package.xml"
+    ],
+    "so3_quadrotor_simulator": [
+      "/home/amov/Fast-Drone-250-master/src/uav_simulator/so3_quadrotor_simulator/package.xml"
+    ],
+    "map_generator": [
+      "/home/amov/Fast-Drone-250-master/src/uav_simulator/map_generator/package.xml"
+    ],
+    "quadrotor_msgs": [
+      "/home/amov/Fast-Drone-250-master/src/utils/quadrotor_msgs/package.xml"
+    ],
+    "cmake_utils": [
+      "/home/amov/Fast-Drone-250-master/src/utils/cmake_utils/package.xml"
+    ],
+    "decomp_ros_msgs": [
+      "/home/amov/Fast-Drone-250-master/src/utils/DecompROS/decomp_ros_msgs/package.xml"
+    ],
+    "decomp_ros_utils": [
+      "/home/amov/Fast-Drone-250-master/src/utils/DecompROS/decomp_ros_utils/package.xml"
+    ],
+    "pose_utils": [
+      "/home/amov/Fast-Drone-250-master/src/utils/pose_utils/package.xml"
+    ],
+    "catkin_simple": [
+      "/home/amov/Fast-Drone-250-master/src/utils/catkin_simple/package.xml",
+      "/home/amov/kalibr_ws/src/kalibr/catkin_simple/package.xml"
+    ],
+    " rviz_plugins ": [
+      "/home/amov/Fast-Drone-250-master/src/utils/rviz_plugins/package.xml"
+    ],
+    "uav_utils": [
+      "/home/amov/Fast-Drone-250-master/src/utils/uav_utils/package.xml"
+    ],
+    "vins": [
+      "/home/amov/vinsf_gpu_ws/src/VINS-Fusion/vins_estimator/package.xml"
+    ],
+    "camera_models": [
+      "/home/amov/vinsf_gpu_ws/src/VINS-Fusion/camera_models/package.xml"
+    ],
+    "global_fusion": [
+      "/home/amov/vinsf_gpu_ws/src/VINS-Fusion/global_fusion/package.xml"
+    ],
+    "loop_fusion": [
+      "/home/amov/vinsf_gpu_ws/src/VINS-Fusion/loop_fusion/package.xml"
+    ],
+    "cv_bridge": [
+      "/home/amov/vinsf_gpu_ws/src/vision_opencv/cv_bridge/package.xml"
+    ],
+    "image_geometry": [
+      "/home/amov/vinsf_gpu_ws/src/vision_opencv/image_geometry/package.xml"
+    ],
+    "opencv_tests": [
+      "/home/amov/vinsf_gpu_ws/src/vision_opencv/opencv_tests/package.xml"
+    ],
+    "vision_opencv": [
+      "/home/amov/vinsf_gpu_ws/src/vision_opencv/vision_opencv/package.xml"
+    ],
+    "vision_to_mavros": [
+      "/home/amov/realsense_ws/src/vision_to_mavros/package.xml"
+    ],
+    "realsense2_description": [
+      "/home/amov/realsense_ws/src/realsense-ros/realsense2_description/package.xml"
+    ],
+    "realsense2_camera": [
+      "/home/amov/realsense_ws/src/realsense-ros/realsense2_camera/package.xml"
+    ],
+    "opencv2_catkin": [
+      "/home/amov/kalibr_ws/src/kalibr/opencv2_catkin/package.xml"
+    ],
+    "ethz_apriltag2": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/ethz_apriltag2/package.xml"
+    ],
+    "kalibr": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/package.xml"
+    ],
+    "sm_logging": [
+      "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_logging/package.xml"
+    ],
+    "numpy_eigen": [
+      "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/numpy_eigen/package.xml"
+    ],
+    "python_module": [
+      "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/python_module/package.xml"
+    ],
+    "sm_common": [
+      "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_common/package.xml"
+    ],
+    "sm_boost": [
+      "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_boost/package.xml"
+    ],
+    "sm_random": [
+      "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_random/package.xml"
+    ],
+    "sm_matrix_archive": [
+      "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_matrix_archive/package.xml"
+    ],
+    "sm_eigen": [
+      "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_eigen/package.xml"
+    ],
+    "sm_python": [
+      "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_python/package.xml"
+    ],
+    "sm_timing": [
+      "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_timing/package.xml"
+    ],
+    "sm_kinematics": [
+      "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_kinematics/package.xml"
+    ],
+    "sm_property_tree": [
+      "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_property_tree/package.xml"
+    ],
+    "sm_opencv": [
+      "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_opencv/package.xml"
+    ],
+    "aslam_splines": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_nonparametric_estimation/aslam_splines/package.xml"
+    ],
+    "aslam_splines_python": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_nonparametric_estimation/aslam_splines_python/package.xml"
+    ],
+    "bsplines_python": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_nonparametric_estimation/bsplines_python/package.xml"
+    ],
+    "bsplines": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_nonparametric_estimation/bsplines/package.xml"
+    ],
+    "aslam_cv_backend": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cv_backend/package.xml"
+    ],
+    "aslam_time": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_time/package.xml"
+    ],
+    "aslam_imgproc": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_imgproc/package.xml"
+    ],
+    "aslam_cv_serialization": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cv_serialization/package.xml"
+    ],
+    "aslam_cv_backend_python": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cv_backend_python/package.xml"
+    ],
+    "aslam_cv_python": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cv_python/package.xml"
+    ],
+    "aslam_cv_error_terms": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cv_error_terms/package.xml"
+    ],
+    "aslam_cameras": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cameras/package.xml"
+    ],
+    "aslam_cameras_april": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cameras_april/package.xml"
+    ],
+    "incremental_calibration": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_incremental_calibration/incremental_calibration/package.xml"
+    ],
+    "incremental_calibration_python": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_incremental_calibration/incremental_calibration_python/package.xml"
+    ],
+    "aslam_backend_python": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_optimizer/aslam_backend_python/package.xml"
+    ],
+    "aslam_backend": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_optimizer/aslam_backend/package.xml"
+    ],
+    "aslam_backend_expressions": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_optimizer/aslam_backend_expressions/package.xml"
+    ],
+    "sparse_block_matrix": [
+      "/home/amov/kalibr_ws/src/kalibr/aslam_optimizer/sparse_block_matrix/package.xml"
+    ]
+  },
+  "external_rosdep_keys": [
+    "boost",
+    "catkin",
+    "cmake_modules",
+    "ddynamic_reconfigure",
+    "diagnostic_updater",
+    "dynamic_reconfigure",
+    "eigen",
+    "genmsg",
+    "geometry_msgs",
+    "image_transport",
+    "libopencv-dev",
+    "libqt5-core",
+    "libqt5-gui",
+    "libqt5-widgets",
+    "librealsense2",
+    "libv4l-dev",
+    "mavros",
+    "message_generation",
+    "message_runtime",
+    "multi_map_server",
+    "nav_msgs",
+    "nodelet",
+    "pcl_conversions",
+    "pcl_ros",
+    "python",
+    "python-numpy",
+    "python-opencv",
+    "python-wxtools",
+    "python3-numpy",
+    "qtbase5-dev",
+    "rosconsole",
+    "roscpp",
+    "roslib",
+    "roslint",
+    "rospy",
+    "rviz",
+    "sensor_msgs",
+    "std_msgs",
+    "suitesparse",
+    "svo_msgs",
+    "tbb",
+    "tf",
+    "vikit_ros",
+    "visualization_msgs",
+    "xacro"
+  ],
+  "installed_key_to_packages": {
+    "boost": [
+      "libboost-all-dev"
+    ],
+    "catkin": [
+      "ros-melodic-catkin"
+    ],
+    "cmake_modules": [
+      "ros-melodic-cmake-modules"
+    ],
+    "ddynamic_reconfigure": [
+      "ros-melodic-ddynamic-reconfigure"
+    ],
+    "diagnostic_updater": [
+      "ros-melodic-diagnostic-updater"
+    ],
+    "dynamic_reconfigure": [
+      "ros-melodic-dynamic-reconfigure"
+    ],
+    "eigen": [
+      "libeigen3-dev"
+    ],
+    "genmsg": [
+      "ros-melodic-genmsg"
+    ],
+    "geometry_msgs": [
+      "ros-melodic-geometry-msgs"
+    ],
+    "image_transport": [
+      "ros-melodic-image-transport"
+    ],
+    "libopencv-dev": [
+      "libopencv-dev"
+    ],
+    "libqt5-core": [
+      "libqt5core5a"
+    ],
+    "libqt5-gui": [
+      "libqt5gui5"
+    ],
+    "libqt5-widgets": [
+      "libqt5widgets5"
+    ],
+    "librealsense2": [],
+    "libv4l-dev": [
+      "libv4l-dev"
+    ],
+    "mavros": [
+      "ros-melodic-mavros"
+    ],
+    "message_generation": [
+      "ros-melodic-message-generation"
+    ],
+    "message_runtime": [
+      "ros-melodic-message-runtime"
+    ],
+    "multi_map_server": [],
+    "nav_msgs": [
+      "ros-melodic-nav-msgs"
+    ],
+    "nodelet": [
+      "ros-melodic-nodelet"
+    ],
+    "pcl_conversions": [
+      "ros-melodic-pcl-conversions"
+    ],
+    "pcl_ros": [
+      "ros-melodic-pcl-ros"
+    ],
+    "python": [
+      "python",
+      "python"
+    ],
+    "python-numpy": [
+      "python-numpy",
+      "python-numpy"
+    ],
+    "python-opencv": [
+      "python-opencv"
+    ],
+    "python-wxtools": [
+      "python-wxtools"
+    ],
+    "python3-numpy": [
+      "python3-numpy"
+    ],
+    "qtbase5-dev": [
+      "qtbase5-dev"
+    ],
+    "rosconsole": [
+      "ros-melodic-rosconsole"
+    ],
+    "roscpp": [
+      "ros-melodic-roscpp"
+    ],
+    "roslib": [
+      "ros-melodic-roslib"
+    ],
+    "roslint": [
+      "ros-melodic-roslint"
+    ],
+    "rospy": [
+      "ros-melodic-rospy"
+    ],
+    "rviz": [
+      "ros-melodic-rviz"
+    ],
+    "sensor_msgs": [
+      "ros-melodic-sensor-msgs"
+    ],
+    "std_msgs": [
+      "ros-melodic-std-msgs"
+    ],
+    "suitesparse": [
+      "libsuitesparse-dev"
+    ],
+    "svo_msgs": [],
+    "tbb": [
+      "libtbb-dev"
+    ],
+    "tf": [
+      "ros-melodic-tf"
+    ],
+    "vikit_ros": [],
+    "visualization_msgs": [
+      "ros-melodic-visualization-msgs"
+    ],
+    "xacro": [
+      "ros-melodic-xacro"
+    ]
+  },
+  "unresolved_keys": [
+    "libqt5-core",
+    "libqt5-gui",
+    "libqt5-widgets",
+    "librealsense2",
+    "multi_map_server",
+    "svo_msgs",
+    "tbb",
+    "vikit_ros"
+  ],
+  "custom_source_dependencies": {
+    "librealsense2": [
+      "dependencies/librealsense",
+      "runtime_snapshot/aarch64/usr_local"
+    ]
+  },
+  "active_entry_chain_packages": [
+    "aslam_backend",
+    "aslam_backend_expressions",
+    "aslam_backend_python",
+    "aslam_cameras",
+    "aslam_cameras_april",
+    "aslam_cv_backend",
+    "aslam_cv_backend_python",
+    "aslam_cv_error_terms",
+    "aslam_cv_python",
+    "aslam_cv_serialization",
+    "aslam_imgproc",
+    "aslam_splines",
+    "aslam_splines_python",
+    "aslam_time",
+    "bspline_opt",
+    "bsplines",
+    "bsplines_python",
+    "camera_models",
+    "catkin_simple",
+    "cmake_utils",
+    "cv_bridge",
+    "ego_planner",
+    "ethz_apriltag2",
+    "incremental_calibration",
+    "incremental_calibration_python",
+    "kalibr",
+    "numpy_eigen",
+    "opencv2_catkin",
+    "path_searching",
+    "plan_env",
+    "px4ctrl",
+    "python_module",
+    "quadrotor_msgs",
+    "realsense2_camera",
+    "sm_boost",
+    "sm_common",
+    "sm_eigen",
+    "sm_kinematics",
+    "sm_logging",
+    "sm_matrix_archive",
+    "sm_opencv",
+    "sm_property_tree",
+    "sm_python",
+    "sm_random",
+    "sm_timing",
+    "sparse_block_matrix",
+    "traj_utils",
+    "uav_utils",
+    "vins"
+  ],
+  "active_external_keys": [
+    "boost",
+    "catkin",
+    "cmake_modules",
+    "ddynamic_reconfigure",
+    "diagnostic_updater",
+    "eigen",
+    "genmsg",
+    "geometry_msgs",
+    "image_transport",
+    "libopencv-dev",
+    "librealsense2",
+    "libv4l-dev",
+    "mavros",
+    "message_generation",
+    "message_runtime",
+    "nav_msgs",
+    "nodelet",
+    "python",
+    "python-numpy",
+    "python-opencv",
+    "python-wxtools",
+    "python3-numpy",
+    "rosconsole",
+    "roscpp",
+    "rospy",
+    "sensor_msgs",
+    "std_msgs",
+    "suitesparse",
+    "tbb",
+    "tf"
+  ],
+  "unresolved_active_keys": [],
+  "optional_or_legacy_unresolved_keys": [
+    "libqt5-core",
+    "libqt5-gui",
+    "libqt5-widgets",
+    "multi_map_server",
+    "svo_msgs",
+    "vikit_ros"
+  ]
+}

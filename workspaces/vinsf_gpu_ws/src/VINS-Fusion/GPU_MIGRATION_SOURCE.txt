@@ -1,0 +1,1 @@
+GPU front-end imported from pjrambo/VINS-Fusion-gpu master tarball on 2026-09-18. Existing source/config changes were copied first; only feature tracker and GPU parameters were replaced/merged. OpenCV forced to /usr/local/share/OpenCV.

@@ -1,0 +1,82 @@
+[
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/camera_models/Calibrations",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/global_fusion/global_fusion_node",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/libcamera_models.so",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/libvins_lib.so",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/loop_fusion/loop_fusion_node",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/pkgconfig/camera_models.pc",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/pkgconfig/global_fusion.pc",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/pkgconfig/loop_fusion.pc",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/pkgconfig/vins.pc",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/vins/kitti_gps_test",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/vins/kitti_odom_test",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/vins/vins_node",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/share/camera_models/cmake/camera_modelsConfig-version.cmake",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/share/camera_models/cmake/camera_modelsConfig.cmake",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/share/global_fusion/cmake/global_fusionConfig-version.cmake",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/share/global_fusion/cmake/global_fusionConfig.cmake",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/share/loop_fusion/cmake/loop_fusionConfig-version.cmake",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/share/loop_fusion/cmake/loop_fusionConfig.cmake",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/share/vins/cmake/vinsConfig-version.cmake",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/share/vins/cmake/vinsConfig.cmake",
+    "reason": "stale CPU VINS artifacts left in old Fast devel; active GPU prefix separately included"
+  }
+]

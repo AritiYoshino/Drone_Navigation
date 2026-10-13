@@ -1,0 +1,93 @@
+[
+  {
+    "source": "/home/amov/Fast-Drone-250-master",
+    "destination": "workspaces/Fast-Drone-250-master",
+    "additional_exclusions": [
+      "carbon_board",
+      "images",
+      "3rd_party.zip",
+      "purchase_list.xlsx",
+      "readme.pdf",
+      "readme_en.pdf"
+    ]
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws",
+    "destination": "workspaces/vinsf_gpu_ws",
+    "additional_exclusions": [
+      "backup_before_stream_20260919_160335",
+      "src/VINS-Fusion/support_files/image",
+      "src/VINS-Fusion/support_files/paper"
+    ]
+  },
+  {
+    "source": "/home/amov/realsense_ws",
+    "destination": "workspaces/realsense_ws",
+    "additional_exclusions": []
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot",
+    "destination": "firmware/PX4-Autopilot",
+    "additional_exclusions": []
+  },
+  {
+    "source": "/home/amov/third_party/ceres-solver-2.1.0",
+    "destination": "dependencies/ceres-solver-2.1.0",
+    "additional_exclusions": []
+  },
+  {
+    "source": "/home/amov/third_party/ceres-cuda",
+    "destination": "dependencies/ceres-cuda",
+    "additional_exclusions": []
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv",
+    "destination": "dependencies/opencv",
+    "additional_exclusions": []
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv_contrib",
+    "destination": "dependencies/opencv_contrib",
+    "additional_exclusions": []
+  },
+  {
+    "source": "/home/amov/librealsense",
+    "destination": "dependencies/librealsense",
+    "additional_exclusions": []
+  },
+  {
+    "source": "/home/amov/Downloads/nlopt",
+    "destination": "dependencies/nlopt",
+    "additional_exclusions": []
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src",
+    "destination": "workspaces/kalibr_ws/src",
+    "additional_exclusions": [
+      "recordings",
+      "build",
+      "logs",
+      "caches"
+    ]
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel",
+    "destination": "runtime_snapshot/aarch64/devel/Fast-Drone-250-master",
+    "note": "Necessary architecture-bound runtime products, not build/cache trees"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws/devel",
+    "destination": "runtime_snapshot/aarch64/devel/vinsf_gpu_ws",
+    "note": "Necessary architecture-bound runtime products, not build/cache trees"
+  },
+  {
+    "source": "/home/amov/realsense_ws/devel",
+    "destination": "runtime_snapshot/aarch64/devel/realsense_ws",
+    "note": "Necessary architecture-bound runtime products, not build/cache trees"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel",
+    "destination": "runtime_snapshot/aarch64/devel/kalibr_ws",
+    "note": "Necessary architecture-bound runtime products, not build/cache trees"
+  }
+]

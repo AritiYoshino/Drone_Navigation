@@ -1,0 +1,2576 @@
+[
+  {
+    "source": "/home/amov/Fast-Drone-250-master",
+    "destination": "workspaces/Fast-Drone-250-master",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/Fast-Drone-250-master",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "b79b5910f20b3f8113a28710b9a6b008c37b2356\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/Fast-Drone-250-master",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "b79b591-dirty\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/Fast-Drone-250-master",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": " M src/planner/plan_manage/launch/advanced_param_exp.xml\n M src/planner/plan_manage/launch/single_run_in_exp.launch\n M src/realflight_modules/px4ctrl/config/ctrl_param_fpv.yaml\n",
+      "stderr": ""
+    },
+    "minimal_git": "history_excluded_source_version_recorded"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws/src/VINS-Fusion",
+    "destination": "workspaces/vinsf_gpu_ws/src/VINS-Fusion",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/vinsf_gpu_ws/src/VINS-Fusion",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "be55a937a57436548ddfb1bd324bc1e9a9e828e0\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/vinsf_gpu_ws/src/VINS-Fusion",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "be55a93-dirty\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/vinsf_gpu_ws/src/VINS-Fusion",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": " M camera_models/CMakeLists.txt\n M camera_models/include/camodocal/calib/CameraCalibration.h\n M camera_models/include/camodocal/chessboard/Chessboard.h\n M config/realsense_d435i/left.yaml\n D config/realsense_d435i/realsense_stereo_imu_config.yaml\n M config/realsense_d435i/right.yaml\n D config/realsense_d435i/rs_camera.launch\n M config/vins_rviz_config.rviz\n M global_fusion/CMakeLists.txt\n M loop_fusion/CMakeLists.txt\n M loop_fusion/src/ThirdParty/DVision/BRIEF.h\n M loop_fusion/src/pose_graph.h\n M loop_fusion/src/pose_graph_node.cpp\n M vins_estimator/CMakeLists.txt\n M vins_estimator/src/KITTIGPSTest.cpp\n M vins_estimator/src/KITTIOdomTest.cpp\n M vins_estimator/src/estimator/estimator.cpp\n M vins_estimator/src/estimator/estimator.h\n M vins_estimator/src/estimator/parameters.cpp\n M vins_estimator/src/estimator/parameters.h\n M vins_estimator/src/featureTracker/feature_tracker.cpp\n M vins_estimator/src/featureTracker/feature_tracker.h\n M vins_estimator/src/rosNodeTest.cpp\n",
+      "stderr": ""
+    },
+    "minimal_git": "history_excluded_source_version_recorded"
+  },
+  {
+    "source": "/home/amov/realsense_ws/src/realsense-ros",
+    "destination": "workspaces/realsense_ws/src/realsense-ros",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/realsense_ws/src/realsense-ros",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "a25ea06f3006753f5ce428822d0fac43500a5908\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/realsense_ws/src/realsense-ros",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "2.2.15-dirty\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/realsense_ws/src/realsense-ros",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": " M realsense2_camera/CMakeLists.txt\n M realsense2_camera/include/realsense_node_factory.h\n M realsense2_camera/launch/rs_camera.launch\n M realsense2_camera/src/base_realsense_node.cpp\n",
+      "stderr": ""
+    },
+    "minimal_git": "history_excluded_source_version_recorded"
+  },
+  {
+    "source": "/home/amov/realsense_ws/src/vision_to_mavros",
+    "destination": "workspaces/realsense_ws/src/vision_to_mavros",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/realsense_ws/src/vision_to_mavros",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "88069a4fd0708f7373b29044ebf0cb471bb03706\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/realsense_ws/src/vision_to_mavros",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "88069a4-dirty\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/realsense_ws/src/vision_to_mavros",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": " M cfg/t265.yaml\n",
+      "stderr": ""
+    },
+    "minimal_git": "history_excluded_source_version_recorded"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot",
+    "destination": "firmware/PX4-Autopilot",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "2e8918da66af37922ededee1cc2d2efffec4cfb2\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "v1.12.3-dirty\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": " M launch/mavros_posix_sitl.launch\n",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "Unstaged changes after reset:\nD\t.vscode/.gitignore\nD\t.vscode/c_cpp_properties.json\nD\t.vscode/cmake-kits.json\nD\t.vscode/cmake-variants.yaml\nD\t.vscode/extensions.json\nD\t.vscode/settings.json\nD\t.vscode/tasks.json\nM\tlaunch/mavros_posix_sitl.launch\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot",
+          "fetch",
+          "--depth=1",
+          "file:///home/amov/PX4-Autopilot",
+          "refs/tags/v1.12.3:refs/tags/v1.12.3"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "From file:///home/amov/PX4-Autopilot\n * [new tag]         v1.12.3    -> v1.12.3\n"
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/flightgear_bridge",
+    "destination": "firmware/PX4-Autopilot/Tools/flightgear_bridge",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "7c2c623da9f5dcb3f01d32830af1a2ed958de363\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "7c2c623\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/Tools/flightgear_bridge",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/Rascal",
+    "destination": "firmware/PX4-Autopilot/Tools/flightgear_bridge/models/Rascal",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/Rascal",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "cbdb2fc7dd44331da1dcd04a891ed7f8c27b1ef0\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/Rascal",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "cbdb2fc\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/Rascal",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/Rascal",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/Rascal/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/Rascal/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/Rascal/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/Rascal",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/Rascal",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G1",
+    "destination": "firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G1",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G1",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "4540de7ae8e71b9bd6e6f67d085695be0ab36bc3\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G1",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "4540de7\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G1",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G1",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G1/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G1/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G1/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G1",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G1",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G2",
+    "destination": "firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G2",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G2",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "562ee71388c493675269210f7692d8b7a8bb800d\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G2",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "562ee71\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G2",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G2",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G2/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G2/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G2/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G2",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G2",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-R1",
+    "destination": "firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-R1",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-R1",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "158e429a0110589b1e2adfe868e166271470e144\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-R1",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "158e429\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-R1",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-R1",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-R1/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-R1/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-R1/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-R1",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-R1",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/jMAVSim",
+    "destination": "firmware/PX4-Autopilot/Tools/jMAVSim",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jMAVSim",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "0a816d8100e9860a031ccfccfb9941bcd6eedc81\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jMAVSim",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "0a816d8\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jMAVSim",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/Tools/jMAVSim",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jMAVSim/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jMAVSim/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jMAVSim/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jMAVSim",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jMAVSim",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/jMAVSim/jMAVlib",
+    "destination": "firmware/PX4-Autopilot/Tools/jMAVSim/jMAVlib",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jMAVSim/jMAVlib",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "c08380767b21938391bec676a43b36b837af9ba4\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jMAVSim/jMAVlib",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "c083807\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jMAVSim/jMAVlib",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/Tools/jMAVSim/jMAVlib",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jMAVSim/jMAVlib/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jMAVSim/jMAVlib/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jMAVSim/jMAVlib/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jMAVSim/jMAVlib",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jMAVSim/jMAVlib",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge",
+    "destination": "firmware/PX4-Autopilot/Tools/jsbsim_bridge",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "e070c50d591541d440510b65c9da5cad1db5aa9a\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "e070c50\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/Tools/jsbsim_bridge",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution",
+    "destination": "firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "40571cd808a204f4062128daeb6bb6db8c134c48\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "2019.1\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution",
+          "fetch",
+          "--depth=1",
+          "file:///home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution",
+          "refs/tags/2019.1:refs/tags/2019.1"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "From file:///home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution\n * [new tag]         2019.1     -> 2019.1\n * [new tag]         FG2017.3   -> FG2017.3\n"
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution",
+          "fetch",
+          "--depth=1",
+          "file:///home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution",
+          "refs/tags/FG2017.3:refs/tags/FG2017.3"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/Rascal",
+    "destination": "firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/Rascal",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/Rascal",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "d0d1db1961549e557885002cf9c3cff40cc27be2\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/Rascal",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "d0d1db1\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/Rascal",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/Rascal",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/Rascal/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/Rascal/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/Rascal/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/Rascal",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/Rascal",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/sitl_gazebo",
+    "destination": "firmware/PX4-Autopilot/Tools/sitl_gazebo",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/sitl_gazebo",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "822050a7ab6fd87972e59f16312f451bce217a56\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/sitl_gazebo",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "822050a\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/sitl_gazebo",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/Tools/sitl_gazebo",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow",
+    "destination": "firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "28ef45c1fcb532b2bfd54c16b059c6a545143b2f\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "28ef45c\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker",
+    "destination": "firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "9b5b567ae77f93d1ef4d36151529ba2506a46e7a\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "9b5b567\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/mavlink/include/mavlink/v2.0",
+    "destination": "firmware/PX4-Autopilot/mavlink/include/mavlink/v2.0",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/mavlink/include/mavlink/v2.0",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "636fae5ca34eff6007344718755d78fcdf94238e\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/mavlink/include/mavlink/v2.0",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "636fae5c\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/mavlink/include/mavlink/v2.0",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/mavlink/include/mavlink/v2.0",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/mavlink/include/mavlink/v2.0/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/mavlink/include/mavlink/v2.0/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/mavlink/include/mavlink/v2.0/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/mavlink/include/mavlink/v2.0",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/mavlink/include/mavlink/v2.0",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/drivers/gps/devices",
+    "destination": "firmware/PX4-Autopilot/src/drivers/gps/devices",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/src/drivers/gps/devices",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "f51267815db3331723b880ab20afc5a67a87c22b\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/src/drivers/gps/devices",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "f512678\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/src/drivers/gps/devices",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/src/drivers/gps/devices",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/drivers/gps/devices/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/drivers/gps/devices/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/drivers/gps/devices/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/drivers/gps/devices",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/drivers/gps/devices",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/lib/crypto/monocypher",
+    "destination": "firmware/PX4-Autopilot/src/lib/crypto/monocypher",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/src/lib/crypto/monocypher",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "baca5d31259c598540e4d1284bc8d8f793abf83a\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/src/lib/crypto/monocypher",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "3.1.2\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/src/lib/crypto/monocypher",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/src/lib/crypto/monocypher",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/crypto/monocypher/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/crypto/monocypher/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/crypto/monocypher/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/crypto/monocypher",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/crypto/monocypher",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/crypto/monocypher",
+          "fetch",
+          "--depth=1",
+          "file:///home/amov/PX4-Autopilot/src/lib/crypto/monocypher",
+          "refs/tags/3.1.2:refs/tags/3.1.2"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "From file:///home/amov/PX4-Autopilot/src/lib/crypto/monocypher\n * [new tag]         3.1.2      -> 3.1.2\n"
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/lib/ecl",
+    "destination": "firmware/PX4-Autopilot/src/lib/ecl",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/src/lib/ecl",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "b3fed06fe822d08d19ab1d2c2f8daf7b7d21951c\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/src/lib/ecl",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "v1.9.0-rc1-591-gb3fed06\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/src/lib/ecl",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/src/lib/ecl",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/ecl/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/ecl/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/ecl/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/ecl",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/ecl",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/lib/matrix",
+    "destination": "firmware/PX4-Autopilot/src/lib/matrix",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/src/lib/matrix",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "b8568a89db8455d0ab2e2e391e2149ba2e5e10dd\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/src/lib/matrix",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "v1.0.2-195-gb8568a8\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/PX4-Autopilot/src/lib/matrix",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "git_clone": {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "core.compression=1",
+        "clone",
+        "--bare",
+        "--depth=1",
+        "--single-branch",
+        "--no-tags",
+        "--no-hardlinks",
+        "file:///home/amov/PX4-Autopilot/src/lib/matrix",
+        "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/matrix/.git"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into bare repository '/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/matrix/.git'...\n"
+    },
+    "minimal_git": "verified_same_HEAD_one_commit",
+    "git_setup": [
+      {
+        "command": [
+          "git",
+          "--git-dir=/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/matrix/.git",
+          "config",
+          "core.bare",
+          "false"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/matrix",
+          "remote",
+          "remove",
+          "origin"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "-C",
+          "/home/amov/drone_navigation_backup_20261009/firmware/PX4-Autopilot/src/lib/matrix",
+          "reset",
+          "--mixed",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv",
+    "destination": "dependencies/opencv",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/Downloads/opencv_build/opencv",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "a871f9e4f7d83dc5851f965bdba5cd01bb7527fe\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/Downloads/opencv_build/opencv",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "3.3.1-dirty\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/Downloads/opencv_build/opencv",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": " M modules/stitching/include/opencv2/stitching/detail/matchers.hpp\n M modules/stitching/src/matchers.cpp\n M modules/stitching/src/precomp.hpp\n",
+      "stderr": ""
+    },
+    "minimal_git": "history_excluded_source_version_recorded"
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv_contrib",
+    "destination": "dependencies/opencv_contrib",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/Downloads/opencv_build/opencv_contrib",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "0bd061f07b665a7fb3f744122550393b337c50e5\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/Downloads/opencv_build/opencv_contrib",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "3.3.1-dirty\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/Downloads/opencv_build/opencv_contrib",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": " M modules/xfeatures2d/include/opencv2/xfeatures2d.hpp\n",
+      "stderr": ""
+    },
+    "minimal_git": "history_excluded_source_version_recorded"
+  },
+  {
+    "source": "/home/amov/librealsense",
+    "destination": "dependencies/librealsense",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/librealsense",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "f7cdf6e8961e1709f6d864bdb33095c00a671ca7\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/librealsense",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "v2.36.0\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/librealsense",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "minimal_git": "history_excluded_source_version_recorded"
+  },
+  {
+    "source": "/home/amov/Downloads/nlopt",
+    "destination": "dependencies/nlopt",
+    "head": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/Downloads/nlopt",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "bc5f39e6d07ead577f255f6f331640634a1e5121\n",
+      "stderr": ""
+    },
+    "describe": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/Downloads/nlopt",
+        "describe",
+        "--tags",
+        "--always",
+        "--dirty"
+      ],
+      "returncode": 0,
+      "stdout": "v2.7.0-2-gbc5f39e\n",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "-C",
+        "/home/amov/Downloads/nlopt",
+        "status",
+        "--porcelain=1",
+        "--untracked-files=no",
+        "--ignore-submodules=all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "minimal_git": "history_excluded_source_version_recorded"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws",
+    "destination": "workspaces/vinsf_gpu_ws",
+    "note": "No source Git repository; copied current files."
+  },
+  {
+    "source": "/home/amov/realsense_ws",
+    "destination": "workspaces/realsense_ws",
+    "note": "No source Git repository; copied current files."
+  },
+  {
+    "source": "/home/amov/third_party/ceres-solver-2.1.0",
+    "destination": "dependencies/ceres-solver-2.1.0",
+    "note": "No source Git repository; copied current files."
+  },
+  {
+    "source": "/home/amov/third_party/ceres-cuda",
+    "destination": "dependencies/ceres-cuda",
+    "note": "No source Git repository; copied current files."
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/boards/atlflight/cmake_hexagon",
+    "destination": "firmware/PX4-Autopilot/boards/atlflight/cmake_hexagon",
+    "cached_git_source": "/home/amov/PX4-Autopilot/.git/modules/boards/atlflight/cmake_hexagon",
+    "head": {
+      "returncode": 0,
+      "stdout": "08fd0a73045346448adf6969660196228b23e1fa\n"
+    },
+    "minimal_git": "verified_parent_gitlink_commit_recovered_local_cache",
+    "source_worktree_originally_unpopulated": true
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/platforms/nuttx/NuttX/apps",
+    "destination": "firmware/PX4-Autopilot/platforms/nuttx/NuttX/apps",
+    "cached_git_source": "/home/amov/PX4-Autopilot/.git/modules/platforms/nuttx/NuttX/apps",
+    "head": {
+      "returncode": 0,
+      "stdout": "979e27408fa90a3c3d6432190c8f65cc80c3e6b6\n"
+    },
+    "minimal_git": "verified_parent_gitlink_commit_recovered_local_cache",
+    "source_worktree_originally_unpopulated": true
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/platforms/nuttx/NuttX/nuttx",
+    "destination": "firmware/PX4-Autopilot/platforms/nuttx/NuttX/nuttx",
+    "cached_git_source": "/home/amov/PX4-Autopilot/.git/modules/platforms/nuttx/NuttX/nuttx",
+    "head": {
+      "returncode": 0,
+      "stdout": "bf660cba2af81f055002b3817c87b1f63a78fd09\n"
+    },
+    "minimal_git": "verified_parent_gitlink_commit_recovered_local_cache",
+    "source_worktree_originally_unpopulated": true
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/platforms/qurt/dspal",
+    "destination": "firmware/PX4-Autopilot/platforms/qurt/dspal",
+    "cached_git_source": "/home/amov/PX4-Autopilot/.git/modules/platforms/qurt/dspal",
+    "head": {
+      "returncode": 0,
+      "stdout": "0322a4e345e48ea28cb1cee14a33033cdaf0b16a\n"
+    },
+    "minimal_git": "verified_parent_gitlink_commit_recovered_local_cache",
+    "source_worktree_originally_unpopulated": true
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/drivers/uavcan/libuavcan",
+    "destination": "firmware/PX4-Autopilot/src/drivers/uavcan/libuavcan",
+    "cached_git_source": "/home/amov/PX4-Autopilot/.git/modules/src/drivers/uavcan/libuavcan",
+    "head": {
+      "returncode": 0,
+      "stdout": "29e1aa6c12e3590252b102153d8c62155047a676\n"
+    },
+    "minimal_git": "verified_parent_gitlink_commit_recovered_local_cache",
+    "source_worktree_originally_unpopulated": true
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/drivers/uavcan_v1/legacy_data_types",
+    "destination": "firmware/PX4-Autopilot/src/drivers/uavcan_v1/legacy_data_types",
+    "cached_git_source": "/home/amov/PX4-Autopilot/.git/modules/src/drivers/uavcan_v1/legacy_data_types",
+    "head": {
+      "returncode": 0,
+      "stdout": "36a01e428b110ff84c8babe5b65667b5e3037d5e\n"
+    },
+    "minimal_git": "verified_parent_gitlink_commit_recovered_local_cache",
+    "source_worktree_originally_unpopulated": true
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/drivers/uavcan_v1/libcanard",
+    "destination": "firmware/PX4-Autopilot/src/drivers/uavcan_v1/libcanard",
+    "cached_git_source": "/home/amov/PX4-Autopilot/.git/modules/src/drivers/uavcan_v1/libcanard",
+    "head": {
+      "returncode": 0,
+      "stdout": "2a116170285fb47fcaae150ad21c2ccde0756a5f\n"
+    },
+    "minimal_git": "verified_parent_gitlink_commit_recovered_local_cache",
+    "source_worktree_originally_unpopulated": true
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/drivers/uavcan_v1/public_regulated_data_types",
+    "destination": "firmware/PX4-Autopilot/src/drivers/uavcan_v1/public_regulated_data_types",
+    "cached_git_source": "/home/amov/PX4-Autopilot/.git/modules/src/drivers/uavcan_v1/public_regulated_data_types",
+    "head": {
+      "returncode": 0,
+      "stdout": "0a773b93ce5c94e1d2791b180058cb9897fab7e1\n"
+    },
+    "minimal_git": "verified_parent_gitlink_commit_recovered_local_cache",
+    "source_worktree_originally_unpopulated": true
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/drivers/uavcannode_gps_demo/libcanard",
+    "destination": "firmware/PX4-Autopilot/src/drivers/uavcannode_gps_demo/libcanard",
+    "cached_git_source": "/home/amov/PX4-Autopilot/.git/modules/src/drivers/uavcannode_gps_demo/libcanard",
+    "head": {
+      "returncode": 0,
+      "stdout": "2a116170285fb47fcaae150ad21c2ccde0756a5f\n"
+    },
+    "minimal_git": "verified_parent_gitlink_commit_recovered_local_cache",
+    "source_worktree_originally_unpopulated": true
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/drivers/uavcannode_gps_demo/public_regulated_data_types",
+    "destination": "firmware/PX4-Autopilot/src/drivers/uavcannode_gps_demo/public_regulated_data_types",
+    "cached_git_source": "/home/amov/PX4-Autopilot/.git/modules/src/drivers/uavcannode_gps_demo/public_regulated_data_types",
+    "head": {
+      "returncode": 0,
+      "stdout": "0a773b93ce5c94e1d2791b180058cb9897fab7e1\n"
+    },
+    "minimal_git": "verified_parent_gitlink_commit_recovered_local_cache",
+    "source_worktree_originally_unpopulated": true
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/modules/micrortps_bridge/micro-CDR",
+    "destination": "firmware/PX4-Autopilot/src/modules/micrortps_bridge/micro-CDR",
+    "cached_git_source": "/home/amov/PX4-Autopilot/.git/modules/src/modules/micrortps_bridge/micro-CDR",
+    "head": {
+      "returncode": 0,
+      "stdout": "21d3cfe3ae570d1674da0105ab23b80958e0449a\n"
+    },
+    "minimal_git": "verified_parent_gitlink_commit_recovered_local_cache",
+    "source_worktree_originally_unpopulated": true
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/platforms/qurt/dspal/cmake_hexagon",
+    "destination": "firmware/PX4-Autopilot/platforms/qurt/dspal/cmake_hexagon",
+    "cached_git_source": "/home/amov/PX4-Autopilot/.git/modules/boards/atlflight/cmake_hexagon",
+    "head": {
+      "returncode": 0,
+      "stdout": "07168bd5715818802b78f674816ec851307998a7\n"
+    },
+    "minimal_git": "verified_parent_gitlink_commit_recovered_alternate_local_cache",
+    "source_worktree_originally_unpopulated": true
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/drivers/uavcan/libuavcan/dsdl",
+    "destination": "firmware/PX4-Autopilot/src/drivers/uavcan/libuavcan/dsdl",
+    "cached_git_source": "/home/amov/PX4-Autopilot/.git/modules/src/drivers/uavcan_v1/legacy_data_types",
+    "head": {
+      "returncode": 0,
+      "stdout": "192295c4f9b67f4a20b0eabf74757b6597415f2b\n"
+    },
+    "minimal_git": "verified_parent_gitlink_commit_recovered_alternate_local_cache",
+    "source_worktree_originally_unpopulated": true
+  }
+]

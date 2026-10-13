@@ -1,0 +1,17 @@
+[
+  {
+    "original_source": "/home/amov/px4_d435i-camchain-imucam.yaml",
+    "preserved_backup": "calibration/px4_d435i-camchain-imucam.yaml",
+    "sha256": "0e2d83a10458e94ce1a13f1228076fbf56b45073e9f1ebc8bf703f57bde430dd"
+  },
+  {
+    "original_source": "/home/amov/px4_d435i-imu.yaml",
+    "preserved_backup": "calibration/px4_d435i-imu.yaml",
+    "sha256": "3686fe121e4ad20be0576188eedc847bfd74a9c3c6a80545dca434c575ae9ac6"
+  },
+  {
+    "original_source": "/home/amov/px4_d435i-results-imucam.txt",
+    "preserved_backup": "calibration/px4_d435i-results-imucam.txt",
+    "sha256": "c5f01d62afcfd06d094f97dc5dc73119e701552419f3346851640d70244756f4"
+  }
+]

@@ -1,0 +1,14 @@
+build/
+devel/
+
+__pycache__/
+*.py[cod]
+
+*.orig
+*.bak
+*.bak-*
+*.codex-*
+*~
+
+.idea/
+.vscode/

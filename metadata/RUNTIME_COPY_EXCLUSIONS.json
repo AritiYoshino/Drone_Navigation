@@ -1,0 +1,450 @@
+[
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/.git",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_python/python/sm/PlotCollection.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_python/python/sm/Progress.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_python/python/sm/plotCoordinateFrame.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/Schweizer-Messer/sm_python/python/sm/saveFigTight.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cameras/include/aslam/cameras/PinholeProjection.hpp.orig",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_cv/aslam_cameras/test/PinholeCameraGeometry.cpp.orig",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_nonparametric_estimation/bsplines_python/python/bsplines/plotPoseSpline.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_camera_calibration/CameraCalibrator.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_camera_calibration/CameraIntializers.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_camera_calibration/CameraUtils.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_camera_calibration/MulticamGraph.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_camera_calibration/ObsDb.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_camera_calibration/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_common/ConfigReader.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_common/ImageDatasetReader.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_common/ImuDatasetReader.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_common/TargetExtractor.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_common/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_errorterms/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_imu_camera_calibration/IccCalibrator.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_imu_camera_calibration/IccPlots.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_imu_camera_calibration/IccSensors.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_imu_camera_calibration/IccUtil.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/aslam_offline_calibration/kalibr/python/kalibr_imu_camera_calibration/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/src/kalibr/bags",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_AuxCommand.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_Bspline.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_Corrections.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_Gains.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_GoalSet.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_Odometry.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_OptimalTimeAllocator.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_OutputData.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_PPROutputData.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_PolynomialTrajectory.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_PositionCommand.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_Px4ctrlDebug.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_Replan.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_ReplanCheck.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_SO3Command.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_Serial.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_SpatialTemporalTrajectory.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_StatusData.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_SwarmCommand.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_SwarmInfo.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_TRPYCommand.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_TakeoffLand.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/_TrajectoryMatrix.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/quadrotor_msgs/msg/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/realsense2_camera/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_IMUInfo.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Metadata.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/realsense2_camera/msg/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/traj_utils/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/traj_utils/msg/_Bspline.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/traj_utils/msg/_DataDisp.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/traj_utils/msg/_MultiBsplines.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel/lib/python2.7/dist-packages/traj_utils/msg/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws/devel/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/realsense_ws/devel/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_backend/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_backend_expressions/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_backend_python/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_cameras/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_cameras_april/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_cv_backend/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_cv_backend_python/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_cv_error_terms/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_cv_python/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_cv_serialization/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_imgproc/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_splines/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_splines_python/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/aslam_time/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/bsplines/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/bsplines_python/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/catkin_simple/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/catkin_tools_prebuild/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/ethz_apriltag2/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/incremental_calibration/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/incremental_calibration_python/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/kalibr/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/numpy_eigen/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/opencv2_catkin/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/python_module/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/sm_boost/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/sm_common/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/sm_eigen/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/sm_kinematics/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/sm_logging/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/sm_matrix_archive/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/sm_opencv/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/sm_property_tree/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/sm_python/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/sm_random/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/sm_timing/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/.private/sparse_block_matrix/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/cmake.lock",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/lib/python2.7/dist-packages/aslam_backend/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/lib/python2.7/dist-packages/aslam_cameras_april/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/lib/python2.7/dist-packages/aslam_cv/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/lib/python2.7/dist-packages/aslam_cv_backend/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/lib/python2.7/dist-packages/aslam_splines/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/lib/python2.7/dist-packages/bsplines/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/lib/python2.7/dist-packages/incremental_calibration/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/lib/python2.7/dist-packages/numpy_eigen/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  },
+  {
+    "source": "/home/amov/kalibr_ws/devel/lib/python2.7/dist-packages/sm/__init__.pyc",
+    "reason": "recording/cache/old-copy, not runtime or calibration source"
+  }
+]

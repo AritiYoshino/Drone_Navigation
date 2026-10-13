@@ -1,0 +1,394 @@
+[
+  {
+    "source": "/home/amov/Fast-Drone-250-master/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/3rd_party.zip",
+    "reason": "not required by current GPU navigation chain"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/build",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/carbon_board",
+    "reason": "not required by current GPU navigation chain"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/devel",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/images",
+    "reason": "not required by current GPU navigation chain"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/purchase_list.xlsx",
+    "reason": "not required by current GPU navigation chain"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/readme.pdf",
+    "reason": "not required by current GPU navigation chain"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/readme_en.pdf",
+    "reason": "not required by current GPU navigation chain"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/planner/plan_manage/launch/advanced_param_exp (copy).xml",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/planner/plan_manage/launch/advanced_param_exp.xml.bak.20261009-140919",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/planner/plan_manage/launch/default (copy).rviz",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/planner/plan_manage/launch/default.rviz.bak.20261009-152510",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/planner/plan_manage/launch/single_run_in_exp (another copy).launch",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/planner/plan_manage/launch/single_run_in_exp.launch.bak-20260921",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/planner/plan_manage/launch/single_run_in_exp.launch.bak-before-depth-restore-20261008-212602",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/planner/plan_manage/scripts/realtime_goal.pyc",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/realflight_modules/px4ctrl/src/PX4CtrlFSM (copy).cpp",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/realflight_modules/px4ctrl/src/PX4CtrlFSM (copy).h",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/realflight_modules/px4ctrl/src/PX4CtrlFSM.cpp.orig",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/realflight_modules/px4ctrl/src/controller.cpp.orig",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/realflight_modules/px4ctrl/src/input.cpp.orig",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/realflight_modules/px4ctrl/src/px4ctrl_node (copy).cpp",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/uav_simulator/local_sensing/.vscode",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/uav_simulator/local_sensing/CMakeModules/FindEigen.cmake~",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/uav_simulator/map_generator/.vscode",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/uav_simulator/odom_visualization/src/odom_visualization.cpp~",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/utils/pose_utils/build",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/utils/quadrotor_msgs/msg/PolynomialTrajectory.msg~",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/utils/quadrotor_msgs/msg/PositionCommand.msg~",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/utils/quadrotor_msgs/src/quadrotor_msgs/__init__.pyc",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws/backup_before_stream_20260919_160335",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws/build",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws/build_cv_bridge.log",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws/build_gpu.log",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws/build_gpu_final.log",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws/build_gpu_relink.log",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws/devel",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws/src/VINS-Fusion/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws/src/VINS-Fusion/support_files/image",
+    "reason": "not required by current GPU navigation chain"
+  },
+  {
+    "source": "/home/amov/vinsf_gpu_ws/src/VINS-Fusion/support_files/paper",
+    "reason": "not required by current GPU navigation chain"
+  },
+  {
+    "source": "/home/amov/realsense_ws/build",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/realsense_ws/devel",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/realsense_ws/src/realsense-ros/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/realsense_ws/src/realsense-ros/realsense2_camera/launch/rs_camera (copy).launch",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/realsense_ws/src/vision_to_mavros/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/realsense_ws/src/vision_to_mavros/scripts/__pycache__",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/.vscode",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/Rascal/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G1/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G2/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/flightgear_bridge/models/TF-R1/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/jMAVSim/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/jMAVSim/jMAVlib/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/jsbsim_bridge/models/Rascal/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/px4airframes/__pycache__",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/sitl_gazebo/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/build",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/launch/mavros_posix_sitl (copy).launch",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/launch/px4 (another copy).launch",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/mavlink/include/mavlink/v2.0/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/msg/tools/__pycache__",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/drivers/gps/devices/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/lib/crypto/monocypher/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/lib/ecl/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/lib/matrix/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/PX4-Autopilot/src/lib/parameters/px4params/__pycache__",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/third_party/ceres-solver-2.1.0/build-cuda",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv/.cache",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv/3rdparty/libjpeg/change.log",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv/doc/js_tutorials/js_assets/cup.mp4",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv/modules/python/src2/hdr_parser.pyc",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv/samples/cpp/tutorial_code/calib3d/real_time_pose_estimation/Data/box.mp4",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv/samples/data/Megamind.avi",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv/samples/data/Megamind_bugy.avi",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv/samples/data/tree.avi",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv/samples/data/vtest.avi",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Downloads/opencv_build/opencv_contrib/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/librealsense/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/librealsense/build",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/librealsense/unit-tests/resources/single_depth_color_640x480.bag",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Downloads/nlopt/.git",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/Downloads/nlopt/build",
+    "reason": "generated/cache/version-history"
+  },
+  {
+    "source": "/home/amov/Downloads/nlopt/src/algs/bobyqa/README.orig",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Downloads/nlopt/src/algs/cobyla/README.orig",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Downloads/nlopt/src/algs/newuoa/README.orig",
+    "reason": "recording/log/old-backup"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/realflight_modules/px4ctrl/src/input.cpp.codex-camera-imu-fix",
+    "reason": "old per-file rollback copy; active source retained"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/realflight_modules/px4ctrl/src/input.cpp.codex-final-camera-frame-fix",
+    "reason": "old per-file rollback copy; active source retained"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/realflight_modules/px4ctrl/src/input.cpp.codex-rejected-controller-transform",
+    "reason": "old per-file rollback copy; active source retained"
+  },
+  {
+    "source": "/home/amov/Fast-Drone-250-master/src/realflight_modules/px4ctrl/src/input.cpp.codex-restored-original",
+    "reason": "old per-file rollback copy; active source retained"
+  },
+  {
+    "source": "/home/amov/realsense_ws/src/realsense-ros/realsense2_camera/include/realsense_node_factory.h.bak_20260722",
+    "reason": "old per-file rollback copy; active source retained"
+  }
+]

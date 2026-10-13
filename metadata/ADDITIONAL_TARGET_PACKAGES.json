@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "python-pyx",
+    "texlive-latex-base",
+    "texlive-fonts-recommended"
+  ],
+  "reason": "Kalibr target PDF generation; source Dockerfile declares PyX but it is absent on the source host. TeX/fonts required for PyX text."
+}

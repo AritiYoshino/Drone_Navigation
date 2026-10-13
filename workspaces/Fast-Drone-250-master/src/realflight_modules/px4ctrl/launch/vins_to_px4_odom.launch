@@ -1,0 +1,19 @@
+<launch>
+  <arg name="input_topic" default="/uav1/vins_estimator/imu_propagate" />
+  <arg name="output_topic" default="/mavros/odometry/out" />
+  <arg name="publish_rate" default="50.0" />
+
+  <node pkg="px4ctrl" type="vins_to_px4_odom_node"
+        name="vins_to_px4_odom" output="screen">
+    <param name="input_topic" value="$(arg input_topic)" />
+    <param name="output_topic" value="$(arg output_topic)" />
+    <param name="parent_frame" value="odom" />
+    <param name="child_frame" value="base_link" />
+    <param name="publish_rate" value="$(arg publish_rate)" />
+    <param name="input_timeout" value="0.15" />
+    <param name="position_stddev" value="0.10" />
+    <param name="orientation_stddev" value="0.10" />
+    <param name="velocity_stddev" value="0.10" />
+    <param name="angular_velocity_stddev" value="0.20" />
+  </node>
+</launch>

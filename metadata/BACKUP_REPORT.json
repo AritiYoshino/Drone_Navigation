@@ -1,0 +1,233 @@
+{
+  "created_at": "2026-10-09T21:17:43.695869+08:00",
+  "root": "/home/amov/drone_navigation_backup_20261009",
+  "copied_regular_files": 18850,
+  "copied_symlinks": 65,
+  "copied_content_bytes": 950355595,
+  "excluded_entries": 98,
+  "source_and_copy_hashes_verified": true,
+  "source_stat_unchanged": true,
+  "source_links_unchanged": true,
+  "preexisting_or_optional_git_issues": 1,
+  "elapsed_seconds": 186.3,
+  "status": "complete_environment_guide_added_and_integrity_rebuilt",
+  "recovered_from_local_git_submodules": 13,
+  "recovered_regular_files": 17410,
+  "recovered_content_bytes": 169709095,
+  "remaining_source_gaps": 1,
+  "restored_Git_blob_checksums_verified": true,
+  "original_empty_submodule_directories_unchanged": true,
+  "finalized_at": "2026-10-09T21:36:30.220678+08:00",
+  "git_fsck_verified": [
+    {
+      "directory": "firmware/PX4-Autopilot",
+      "commit": "2e8918da66af37922ededee1cc2d2efffec4cfb2",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/Tools/flightgear_bridge",
+      "commit": "7c2c623da9f5dcb3f01d32830af1a2ed958de363",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/Tools/flightgear_bridge/models/Rascal",
+      "commit": "cbdb2fc7dd44331da1dcd04a891ed7f8c27b1ef0",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G1",
+      "commit": "4540de7ae8e71b9bd6e6f67d085695be0ab36bc3",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-G2",
+      "commit": "562ee71388c493675269210f7692d8b7a8bb800d",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/Tools/flightgear_bridge/models/TF-R1",
+      "commit": "158e429a0110589b1e2adfe868e166271470e144",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/Tools/jMAVSim",
+      "commit": "0a816d8100e9860a031ccfccfb9941bcd6eedc81",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/Tools/jMAVSim/jMAVlib",
+      "commit": "c08380767b21938391bec676a43b36b837af9ba4",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/Tools/jsbsim_bridge",
+      "commit": "e070c50d591541d440510b65c9da5cad1db5aa9a",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/ATI-Resolution",
+      "commit": "40571cd808a204f4062128daeb6bb6db8c134c48",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/Tools/jsbsim_bridge/models/Rascal",
+      "commit": "d0d1db1961549e557885002cf9c3cff40cc27be2",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/Tools/sitl_gazebo",
+      "commit": "822050a7ab6fd87972e59f16312f451bce217a56",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow",
+      "commit": "28ef45c1fcb532b2bfd54c16b059c6a545143b2f",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker",
+      "commit": "9b5b567ae77f93d1ef4d36151529ba2506a46e7a",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/mavlink/include/mavlink/v2.0",
+      "commit": "636fae5ca34eff6007344718755d78fcdf94238e",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/src/drivers/gps/devices",
+      "commit": "f51267815db3331723b880ab20afc5a67a87c22b",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/src/lib/crypto/monocypher",
+      "commit": "baca5d31259c598540e4d1284bc8d8f793abf83a",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/src/lib/ecl",
+      "commit": "b3fed06fe822d08d19ab1d2c2f8daf7b7d21951c",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/src/lib/matrix",
+      "commit": "b8568a89db8455d0ab2e2e391e2149ba2e5e10dd",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/boards/atlflight/cmake_hexagon",
+      "commit": "08fd0a73045346448adf6969660196228b23e1fa",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/platforms/nuttx/NuttX/apps",
+      "commit": "979e27408fa90a3c3d6432190c8f65cc80c3e6b6",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/platforms/nuttx/NuttX/nuttx",
+      "commit": "bf660cba2af81f055002b3817c87b1f63a78fd09",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/platforms/qurt/dspal",
+      "commit": "0322a4e345e48ea28cb1cee14a33033cdaf0b16a",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/src/drivers/uavcan/libuavcan",
+      "commit": "29e1aa6c12e3590252b102153d8c62155047a676",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/src/drivers/uavcan_v1/legacy_data_types",
+      "commit": "36a01e428b110ff84c8babe5b65667b5e3037d5e",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/src/drivers/uavcan_v1/libcanard",
+      "commit": "2a116170285fb47fcaae150ad21c2ccde0756a5f",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/src/drivers/uavcan_v1/public_regulated_data_types",
+      "commit": "0a773b93ce5c94e1d2791b180058cb9897fab7e1",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/src/drivers/uavcannode_gps_demo/libcanard",
+      "commit": "2a116170285fb47fcaae150ad21c2ccde0756a5f",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/src/drivers/uavcannode_gps_demo/public_regulated_data_types",
+      "commit": "0a773b93ce5c94e1d2791b180058cb9897fab7e1",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/src/modules/micrortps_bridge/micro-CDR",
+      "commit": "21d3cfe3ae570d1674da0105ab23b80958e0449a",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/platforms/qurt/dspal/cmake_hexagon",
+      "commit": "07168bd5715818802b78f674816ec851307998a7",
+      "git_fsck_returncode": 0
+    },
+    {
+      "directory": "firmware/PX4-Autopilot/src/drivers/uavcan/libuavcan/dsdl",
+      "commit": "192295c4f9b67f4a20b0eabf74757b6597415f2b",
+      "git_fsck_returncode": 0
+    }
+  ],
+  "original_files_unchanged_final_check": true,
+  "independent_copy_no_source_hardlinks": true,
+  "warnings": [
+    "One originally unavailable nested PX4/UAVCAN pyuavcan submodule; exact commit recorded."
+  ],
+  "network_download_used": false,
+  "final_inventory_regular_files": 40319,
+  "final_inventory_symlinks": 398,
+  "final_integrity_check": "PASS: 37070 regular files, 65 symlinks; contents, permissions and inventory verified.",
+  "total_regular_content_bytes": 2962087645,
+  "extension_added_regular_files": 3253,
+  "extension_added_symlinks": 331,
+  "extension_copied_content_bytes": 1556315624,
+  "kalibr_source_included": true,
+  "runtime_snapshot_architecture": "aarch64",
+  "cuda_runtime_libraries_included": 14,
+  "native_runtime_reuse_requires_matching_OS_ROS_CUDA_GPU": true,
+  "retained_original_calibration_results_with_now_absent_sources": [
+    {
+      "original_source": "/home/amov/px4_d435i-camchain-imucam.yaml",
+      "preserved_backup": "calibration/px4_d435i-camchain-imucam.yaml",
+      "sha256": "0e2d83a10458e94ce1a13f1228076fbf56b45073e9f1ebc8bf703f57bde430dd"
+    },
+    {
+      "original_source": "/home/amov/px4_d435i-imu.yaml",
+      "preserved_backup": "calibration/px4_d435i-imu.yaml",
+      "sha256": "3686fe121e4ad20be0576188eedc847bfd74a9c3c6a80545dca434c575ae9ac6"
+    },
+    {
+      "original_source": "/home/amov/px4_d435i-results-imucam.txt",
+      "preserved_backup": "calibration/px4_d435i-results-imucam.txt",
+      "sha256": "c5f01d62afcfd06d094f97dc5dc73119e701552419f3346851640d70244756f4"
+    }
+  ],
+  "environment_document": "MIGRATION_ENVIRONMENT.md",
+  "unfinished_deployment_helpers_removed": [
+    "deploy/apply_system_overrides.py",
+    "deploy/build_from_source.sh",
+    "deploy/check_environment.py",
+    "deploy/environment.sh",
+    "deploy/install_system_dependencies.py",
+    "deploy/kalibr.sh",
+    "deploy/prepare_migration.py",
+    "vi_gpu_quick.sh",
+    "take_off.sh"
+  ],
+  "calibration_tool_source_included": "workspaces/kalibr_ws/src/kalibr",
+  "build_install_launch_and_flight_executed": false,
+  "new_aircraft_compatibility_claimed": false,
+  "environment_document_sha256": "613423556f1b55bd7be9d7a99c2934be4d00323c7eb79c13ca4097a64358667e"
+}

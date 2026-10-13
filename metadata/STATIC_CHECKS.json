@@ -1,0 +1,44 @@
+{
+  "launch_XML_parse_passed": [
+    "workspaces/Fast-Drone-250-master/src/planner/plan_manage/launch/single_run_in_exp.launch",
+    "workspaces/Fast-Drone-250-master/src/planner/plan_manage/launch/advanced_param_exp.xml",
+    "workspaces/Fast-Drone-250-master/src/realflight_modules/px4ctrl/launch/run_ctrl_with_vins_bridge.launch",
+    "workspaces/Fast-Drone-250-master/src/realflight_modules/px4ctrl/launch/vins_to_px4_odom.launch",
+    "workspaces/Fast-Drone-250-master/src/realflight_modules/px4ctrl/launch/run_ctrl.launch",
+    "workspaces/realsense_ws/src/realsense-ros/realsense2_camera/launch/rs_camera_ego.launch",
+    "workspaces/vinsf_gpu_ws/src/VINS-Fusion/vins_estimator/launch/vins_rviz.launch",
+    "system_overrides/opt/ros/melodic/share/mavros/launch/px4_ego.launch",
+    "system_overrides/opt/ros/melodic/share/mavros/launch/node.launch"
+  ],
+  "shell_syntax_passed": [
+    "scripts/home/takeoff.sh",
+    "scripts/home/test.sh",
+    "scripts/home/vi_gpu.sh",
+    "scripts/home/vins_quick_start_gpu.sh",
+    "workspaces/Fast-Drone-250-master/shfiles/checkcpu.sh",
+    "workspaces/Fast-Drone-250-master/shfiles/land.sh",
+    "workspaces/Fast-Drone-250-master/shfiles/make.sh",
+    "workspaces/Fast-Drone-250-master/shfiles/record copy.sh",
+    "workspaces/Fast-Drone-250-master/shfiles/record.sh",
+    "workspaces/Fast-Drone-250-master/shfiles/rspx4.sh",
+    "workspaces/Fast-Drone-250-master/shfiles/sys.sh",
+    "workspaces/Fast-Drone-250-master/shfiles/takeoff.sh"
+  ],
+  "critical_assets_present": [
+    "workspaces/vinsf_gpu_ws/src/VINS-Fusion/vins_estimator/src/featureTracker/feature_tracker_cuda.cu",
+    "workspaces/vinsf_gpu_ws/src/VINS-Fusion/config/realsense_d435i/px4_d435_vins_gpu.yaml",
+    "workspaces/vinsf_gpu_ws/src/VINS-Fusion/config/realsense_d435i/left.yaml",
+    "workspaces/vinsf_gpu_ws/src/VINS-Fusion/config/realsense_d435i/right.yaml",
+    "workspaces/vinsf_gpu_ws/src/VINS-Fusion/support_files/brief_k10L6.bin",
+    "workspaces/vinsf_gpu_ws/src/VINS-Fusion/support_files/brief_pattern.yml",
+    "workspaces/vinsf_gpu_ws/src/vision_opencv/cv_bridge/CMakeLists.txt",
+    "workspaces/Fast-Drone-250-master/src/realflight_modules/px4ctrl/src/vins_to_px4_odom_node.cpp",
+    "workspaces/Fast-Drone-250-master/src/realflight_modules/px4ctrl/config/ctrl_param_fpv.yaml",
+    "workspaces/Fast-Drone-250-master/firmware/px4_fmu-v5_default.px4",
+    "system_overrides/opt/ros/melodic/lib/mavros/request_px4_imu_rate.py",
+    "system_overrides/usr/share/GeographicLib/geoids/egm96-5.pgm",
+    "dependencies/ceres-cuda/lib/libceres.so",
+    "calibration/px4_d435i-camchain-imucam.yaml"
+  ],
+  "tests_did_not_execute_launch_or_flight_scripts": true
+}

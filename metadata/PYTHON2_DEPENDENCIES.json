@@ -1,0 +1,177 @@
+{
+  "modules": [
+    {
+      "status": "imported",
+      "version": "1.13.3",
+      "file": "/usr/lib/python2.7/dist-packages/numpy/__init__.pyc",
+      "module": "numpy"
+    },
+    {
+      "status": "imported",
+      "version": "0.19.1",
+      "file": "/usr/lib/python2.7/dist-packages/scipy/__init__.pyc",
+      "module": "scipy"
+    },
+    {
+      "status": "imported",
+      "version": "2.1.1",
+      "file": "/usr/lib/python2.7/dist-packages/matplotlib/__init__.pyc",
+      "module": "matplotlib"
+    },
+    {
+      "status": "imported",
+      "version": "3.12",
+      "file": "/usr/lib/python2.7/dist-packages/yaml/__init__.pyc",
+      "module": "yaml"
+    },
+    {
+      "status": "imported",
+      "version": "0.7.1",
+      "file": "/usr/lib/python2.7/dist-packages/igraph/__init__.pyc",
+      "module": "igraph"
+    },
+    {
+      "status": "import_error",
+      "module": "pyx",
+      "error": "No module named pyx"
+    },
+    {
+      "status": "imported",
+      "version": "5.4.2",
+      "file": "/usr/lib/python2.7/dist-packages/psutil/__init__.pyc",
+      "module": "psutil"
+    },
+    {
+      "status": "import_error",
+      "module": "sympy",
+      "error": "No module named sympy"
+    },
+    {
+      "status": "import_error",
+      "module": "networkx",
+      "error": "No module named networkx"
+    },
+    {
+      "status": "imported",
+      "version": "5.1.0",
+      "file": "/usr/lib/python2.7/dist-packages/PIL/__init__.pyc",
+      "module": "PIL"
+    },
+    {
+      "status": "imported",
+      "version": "2.6.1",
+      "file": "/usr/lib/python2.7/dist-packages/dateutil/__init__.pyc",
+      "module": "dateutil"
+    },
+    {
+      "status": "imported",
+      "version": "2.2.0",
+      "file": "/usr/lib/python2.7/dist-packages/pyparsing.pyc",
+      "module": "pyparsing"
+    },
+    {
+      "status": "imported",
+      "version": "1.11.0",
+      "file": "/usr/lib/python2.7/dist-packages/six.pyc",
+      "module": "six"
+    },
+    {
+      "status": "imported",
+      "version": "1.5.1",
+      "file": "/usr/lib/python2.7/dist-packages/rospkg/__init__.pyc",
+      "module": "rospkg"
+    },
+    {
+      "status": "imported",
+      "version": "0.5.2",
+      "file": "/usr/lib/python2.7/dist-packages/catkin_pkg/__init__.pyc",
+      "module": "catkin_pkg"
+    },
+    {
+      "status": "import_error",
+      "module": "cv2",
+      "error": "/usr/lib/aarch64-linux-gnu/libgomp.so.1: cannot allocate memory in static TLS block"
+    }
+  ],
+  "python_distributions": [
+    {
+      "version": "1.11.0",
+      "requirements": [],
+      "name": "six",
+      "location": "/usr/lib/python2.7/dist-packages"
+    },
+    {
+      "version": "0.19.1",
+      "requirements": [],
+      "name": "scipy",
+      "location": "/usr/lib/python2.7/dist-packages"
+    },
+    {
+      "version": "1.5.1",
+      "requirements": [
+        "PyYAML"
+      ],
+      "name": "rospkg",
+      "location": "/usr/lib/python2.7/dist-packages"
+    },
+    {
+      "version": "3.12",
+      "requirements": [],
+      "name": "PyYAML",
+      "location": "/usr/lib/python2.7/dist-packages"
+    },
+    {
+      "version": "0.7.1.post6",
+      "requirements": [],
+      "name": "python-igraph",
+      "location": "/usr/lib/python2.7/dist-packages"
+    },
+    {
+      "version": "2.6.1",
+      "requirements": [],
+      "name": "python-dateutil",
+      "location": "/usr/lib/python2.7/dist-packages"
+    },
+    {
+      "version": "2.2.0",
+      "requirements": [],
+      "name": "pyparsing",
+      "location": "/usr/lib/python2.7/dist-packages"
+    },
+    {
+      "version": "5.4.2",
+      "requirements": [],
+      "name": "psutil",
+      "location": "/usr/lib/python2.7/dist-packages"
+    },
+    {
+      "version": "5.1.0",
+      "requirements": [],
+      "name": "Pillow",
+      "location": "/usr/lib/python2.7/dist-packages"
+    },
+    {
+      "version": "1.13.3",
+      "requirements": [],
+      "name": "numpy",
+      "location": "/usr/lib/python2.7/dist-packages"
+    },
+    {
+      "version": "2.1.1",
+      "requirements": [],
+      "name": "matplotlib",
+      "location": "/usr/lib/python2.7/dist-packages"
+    },
+    {
+      "version": "0.5.2",
+      "requirements": [
+        "docutils",
+        "pyparsing",
+        "python-dateutil"
+      ],
+      "name": "catkin-pkg",
+      "location": "/usr/lib/python2.7/dist-packages"
+    }
+  ],
+  "stderr": ""
+}

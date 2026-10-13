@@ -1,0 +1,11 @@
+[
+  {
+    "type": "unpopulated_source_submodule_not_in_local_cache",
+    "source": "/home/amov/PX4-Autopilot/src/drivers/uavcan/libuavcan/libuavcan/dsdl_compiler/pyuavcan",
+    "expected_commit": "c58477a644d20ccf95a20c151f3a0402f271c3b8",
+    "cache": "/home/amov/PX4-Autopilot/.git/modules/src/drivers/uavcan/libuavcan/modules/libuavcan/dsdl_compiler/pyuavcan",
+    "detail": "fatal: not a git repository: '/home/amov/PX4-Autopilot/.git/modules/src/drivers/uavcan/libuavcan/modules/libuavcan/dsdl_compiler/pyuavcan'\n",
+    "upstream_url": "https://github.com/UAVCAN/pyuavcan",
+    "note": "Parent gitlink preserved. Exact commit unavailable in current local PX4 Git stores; no network download performed."
+  }
+]

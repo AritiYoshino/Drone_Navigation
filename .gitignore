@@ -1,0 +1,6 @@
+/runtime_snapshot/
+**/build/
+**/devel/
+**/install/
+**/log/
+**/*.bag

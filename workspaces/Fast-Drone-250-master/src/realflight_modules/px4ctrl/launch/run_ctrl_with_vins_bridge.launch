@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find px4ctrl)/launch/vins_to_px4_odom.launch" />
+  <include file="$(find px4ctrl)/launch/run_ctrl.launch" />
+</launch>
