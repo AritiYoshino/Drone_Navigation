@@ -6,6 +6,8 @@
 
 **移植所需环境、GPU/ROS依赖、编译隔离、话题链、标定和PX4安全事项见 [`MIGRATION_ENVIRONMENT.md`](MIGRATION_ENVIRONMENT.md)。**
 
+VINS IMU 未达到 200 Hz 的测量、参数候选失败及已回滚的台架结果见 [IMU_DIAGNOSIS.md](IMU_DIAGNOSIS.md)；当前问题尚未修复。
+
 GPU 全链路入口 `scripts/home/vins_quick_start_gpu.sh` 现转到 `drone-nav start`，默认启动感知、定位、里程计桥和规划；控制器需另行手动启动。`scripts/home/takeoff.sh` 仍是独立的人工起飞消息入口。硬件接入步骤见本机说明。
 
 - `workspaces/`：EGO/px4ctrl、GPU VINS、RealSense、Kalibr 源码
