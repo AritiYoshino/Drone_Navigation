@@ -1,0 +1,13 @@
+<launch>
+  <arg name="config" default="$(dirname)/../config/px4ctrl_bench.yaml" />
+  <include file="$(find px4ctrl)/launch/vins_to_px4_odom.launch" />
+  <node pkg="px4ctrl" type="px4ctrl_node" name="px4ctrl" output="screen" required="true">
+    <remap from="~odom" to="/uav1/vins_estimator/imu_propagate" />
+    <remap from="~cmd" to="/position_cmd" />
+    <rosparam command="load" file="$(arg config)" />
+    <!-- Bench mode always disables automatic takeoff and arming. -->
+    <param name="auto_takeoff_land/enable" value="false" />
+    <param name="auto_takeoff_land/enable_auto_arm" value="false" />
+    <param name="auto_takeoff_land/no_RC" value="false" />
+  </node>
+</launch>

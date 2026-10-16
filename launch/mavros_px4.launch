@@ -1,0 +1,16 @@
+<launch>
+  <arg name="fcu_url" default="/dev/ttyACM0:57600" />
+  <arg name="gcs_url" default="" />
+  <arg name="tgt_system" default="1" />
+  <arg name="tgt_component" default="1" />
+  <arg name="plugins" default="$(dirname)/../config/mavros_plugins.yaml" />
+  <arg name="config" default="$(dirname)/../config/mavros_px4.yaml" />
+  <include file="$(find mavros)/launch/node.launch">
+    <arg name="fcu_url" value="$(arg fcu_url)" />
+    <arg name="gcs_url" value="$(arg gcs_url)" />
+    <arg name="tgt_system" value="$(arg tgt_system)" />
+    <arg name="tgt_component" value="$(arg tgt_component)" />
+    <arg name="pluginlists_yaml" value="$(arg plugins)" />
+    <arg name="config_yaml" value="$(arg config)" />
+  </include>
+</launch>

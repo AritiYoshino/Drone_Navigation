@@ -1,17 +1,28 @@
-# 无人机视觉定位与协同导航备份
+# 无人机视觉定位与协同导航
 
-独立源码/配置文件夹，非压缩包。原项目未修改。
+本机启动命令已对齐参考无人机 `amov@10.53.71.32` 的 `Drone_Navigation_git` 脚本。统一入口为 `drone-nav`，运行时使用本机 `runtime/workspaces/` 的编译副本和私有依赖。参考机实际启动的是 `/home/amov/` 下的独立工作区，不是备份仓库 `workspaces/` 中的归档源码。
 
-**移植所需环境、GPU/ROS依赖、编译隔离、话题链、标定和PX4安全事项见 [`MIGRATION_ENVIRONMENT.md`](MIGRATION_ENVIRONMENT.md)。**
+```bash
+drone-nav check                 # 配置、ROS 包和动态库检查
+drone-nav doctor                # 本机软件、USB 和串口诊断
+drone-nav vins --dry-run        # 查看定位链启动命令
+drone-nav start --dry-run       # 查看定位、桥接和 EGO 启动命令
+drone-nav vins                  # MAVROS、相机、GPU VINS、VINS RViz
+drone-nav start                 # MAVROS、相机、GPU VINS、里程计桥、EGO、EGO RViz
+```
 
-GPU全链路原入口为 `scripts/home/vins_quick_start_gpu.sh`；起飞消息脚本为 `scripts/home/takeoff.sh`。它们可能连接真实飞控；未在本次执行。移植并验证前不要启动或起飞。
+SSH 或无桌面运行时加 `--headless`；日志位于 `runtime/navigation/logs/`。`start` 不启动控制器，也不发送目标或起飞消息；控制器、目标点和起飞分别由 `drone-nav controller`、`drone-nav component goals`、`drone-nav takeoff` 手动执行。控制器使用参考机原始 `px4ctrl run_ctrl.launch` 配置，其中自动起降和自动解锁功能开启。
 
-- `workspaces/`：EGO/px4ctrl、GPU VINS、RealSense、Kalibr 源码
-- `firmware/`：PX4源码与现有固件文件
-- `dependencies/`：Ceres、GPU OpenCV、RealSense、NLopt源码及必要依赖
-- `runtime_snapshot/aarch64/`：原机编译产物及GPU运行库，仅供匹配系统参考
-- `system_overrides/`：原机MAVROS配置副本；需先比较再应用
-- `calibration/`：D435i/IMU现有标定参数与报告
+完整命令、兼容入口、设备配置、标定和重建说明见 [LOCAL_SETUP.md](LOCAL_SETUP.md)。移植环境、GPU/ROS 依赖、话题链、标定及 PX4 说明见 [MIGRATION_ENVIRONMENT.md](MIGRATION_ENVIRONMENT.md)。本次命令同步不代表已完成硬件运行或飞行验证。
+
+- `workspaces/`：EGO/px4ctrl、GPU VINS、RealSense、Kalibr 原始迁入源码
+- `runtime/`：本机编译副本、私有依赖、运行配置和日志
+- `config/`：本机设备默认值和 VINS 标定配置；可用 `config/local.env` 覆盖导航入口设置
+- `firmware/`：PX4 源码与现有固件文件
+- `dependencies/`：Ceres、GPU OpenCV、RealSense、NLopt 源码及必要依赖
+- `runtime_snapshot/aarch64/`：原机编译产物及 GPU 运行库，供匹配系统参考
+- `system_overrides/`：原机 MAVROS 配置及工具副本
+- `calibration/`：D435i/IMU 现有标定参数与报告
 - `metadata/`：版本、编译参数、依赖及完整性信息
 
-校验文件：`python3 -B verify_backup.py`。校验通过只表示备份内容与清单一致，不表示已在目标无人机编译、连接或验证。
+备份清单校验：`python3 -B verify_backup.py`。校验通过表示备份内容与清单一致；本机运行状态使用 `drone-nav check` 和 `drone-nav doctor` 检查。

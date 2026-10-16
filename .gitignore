@@ -4,3 +4,6 @@
 **/install/
 **/log/
 **/*.bag
+/runtime/
+__pycache__/
+*.py[cod]

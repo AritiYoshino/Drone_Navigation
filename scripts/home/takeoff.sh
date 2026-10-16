@@ -1,1 +1,3 @@
-rostopic pub -1  /px4ctrl/takeoff_land quadrotor_msgs/TakeoffLand "takeoff_land_cmd: 1"
+#!/usr/bin/env bash
+# Same entry as the reference drone.
+exec bash "$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)/drone_nav.sh" takeoff "$@"
