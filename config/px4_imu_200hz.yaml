@@ -1,0 +1,107 @@
+# Measured configuration record only; not loaded or applied by drone-nav.
+# No device GUID or serial number is recorded here.
+record_date: "2026-10-16"
+hardware:
+  board: "PX4 FMUv6C"
+  firmware_release: "1.16.2"
+  firmware_git_hash: "54f0455ffcd755534539a7cf33a09a20bf71d29d"
+px4_parameters:
+  IMU_INTEG_RATE: 400
+  IMU_GYRO_RATEMAX: 800
+reboot_required: true
+reboot_required_parameters:
+  - IMU_INTEG_RATE
+  - IMU_GYRO_RATEMAX
+mavlink_runtime_streams:
+  # Requested again by request_px4_imu_rate.py after a connection/reboot.
+  - {message_id: 105, name: HIGHRES_IMU, rate_hz: 200, interval_us: 5000}
+  - {message_id: 31, name: ATTITUDE_QUATERNION, rate_hz: 200, interval_us: 5000}
+  - {message_id: 30, name: ATTITUDE, rate_hz: 200, interval_us: 5000}
+watchdog:
+  minimum_rate_ratio: 0.975
+  minimum_rate_hz_at_200: 195
+acceptance:
+  measurement_seconds: 30
+  stream_minimum_hz: 195
+  stream_maximum_hz: 205
+  propagate_to_raw_ratio_minimum: 0.98
+  propagate_to_raw_ratio_maximum: 1.02
+  strictly_increasing_sample_timestamps: true
+  finite_data: true
+  connected_and_disarmed_throughout: true
+  no_crc_or_sequence_errors: true
+  no_imu_data_gap_growth: true
+  minimum_cpu_idle_percent: 20
+final_idle_state:
+  checked_utc: "2026-10-16T12:44:36.954015Z"
+  verified: true
+  parameters_saved: true
+  IMU_INTEG_RATE: 400
+  IMU_GYRO_RATEMAX: 800
+  test_ros_camera_vins_processes_stopped: true
+  # Normal VINS startup requests 200 Hz again via the rate requester.
+  restored_usb_streams_hz:
+    HIGHRES_IMU: 50
+    ATTITUDE_QUATERNION: 50
+    ATTITUDE: 100
+  vehicle_imu_0_hz: 333
+  vehicle_imu_1_hz: 402
+  cpu_idle_percent: 61.32
+  all_imu_data_gap_counters: 1
+  imu_data_gap_growth: false
+  sensor_and_vehicle_failsafe: false
+observed_after_reboot:
+  bench_passed: true
+  normal_vins_verified: true
+  selected_imu_instance: 0
+  vehicle_imu_0_hz: 333
+  vehicle_imu_1_hz: 402
+  sensor_gyro_0_hz: 666
+  sensor_accel_0_hz: 801
+  highres_imu_sample_hz: 199.4631264756579
+  highres_imu_arrival_hz: 199.4778630391352
+  attitude_quaternion_sample_hz: 199.3131730737172
+  attitude_sample_hz: 199.34651418664356
+  highres_imu_main_sample_intervals_ms: [3, 6]
+  highres_imu_sample_interval_p99_ms: 6.054
+  highres_imu_sample_interval_max_ms: 9.011
+  cpu_idle_percent_before_after: [61.0, 60.53]
+  imu_data_gap_growth: false
+  sensor_and_vehicle_failsafe: false
+observed_vins_run:
+  started_utc: "2026-10-16T12:43:02.430380Z"
+  launch: "drone-nav vins --headless"
+  initialization_and_odometry_freshness_checked: true
+  warmup_seconds: 10
+  measurement_seconds: 30.009269952774048
+  passed: true
+  imu_raw:
+    count: 5981
+    sample_hz: 199.31233434981922
+    arrival_hz: 199.3150158020438
+    last_header_age_ms: 4.8482418060302734
+  imu_data:
+    count: 5981
+    sample_hz: 199.3170906905497
+    arrival_hz: 199.32407752207945
+  imu_propagate:
+    count: 5981
+    sample_hz: 199.31233434981922
+    arrival_hz: 199.31675648803196
+    last_header_age_ms: 4.8482418060302734
+  propagate_to_raw_count_ratio: 1.0
+  propagate_to_raw_sample_hz_ratio: 1.0
+  propagate_to_raw_arrival_hz_ratio: 1.0000087333409435
+  each_infra_image:
+    count: 450
+    sample_hz: 14.998484464104504
+    last_header_age_ms: 16.37721061706543
+  odometry:
+    count: 225
+    sample_hz: 7.499326901787112
+    arrival_hz: 7.497990286876046
+    last_header_age_ms: 149.34229850769043
+  all_finite: true
+  timestamp_nonincreasing: 0
+  all_streams_alive: true
+  connected_and_disarmed_throughout: true

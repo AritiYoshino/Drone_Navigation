@@ -6,7 +6,7 @@
 
 **移植所需环境、GPU/ROS依赖、编译隔离、话题链、标定和PX4安全事项见 [`MIGRATION_ENVIRONMENT.md`](MIGRATION_ENVIRONMENT.md)。**
 
-VINS IMU 未达到 200 Hz 的测量、参数候选失败及已回滚的台架结果见 [IMU_DIAGNOSIS.md](IMU_DIAGNOSIS.md)；当前问题尚未修复。
+VINS IMU 已达到约 199.3 Hz，完整定位链连续 30 秒台架验收通过：积分参数 400、gyro 参数 800，重启后请求三路 MAVLink 200 Hz。实测依据与失败候选见 [IMU_DIAGNOSIS.md](IMU_DIAGNOSIS.md)，适用固件及配置见 [config/px4_imu_200hz.yaml](config/px4_imu_200hz.yaml)。
 
 GPU 全链路入口 `scripts/home/vins_quick_start_gpu.sh` 现转到 `drone-nav start`，默认启动感知、定位、里程计桥和规划；控制器需另行手动启动。`scripts/home/takeoff.sh` 仍是独立的人工起飞消息入口。硬件接入步骤见本机说明。
 

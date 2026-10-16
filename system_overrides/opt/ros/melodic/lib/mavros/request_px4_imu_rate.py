@@ -99,7 +99,7 @@ def set_rates(command, rate_hz):
 def main():
     rospy.init_node("px4_imu_rate_requester")
     rate_hz = float(rospy.get_param("~rate_hz", 200.0))
-    min_rate_hz = float(rospy.get_param("~min_rate_hz", rate_hz * 0.85))
+    min_rate_hz = float(rospy.get_param("~min_rate_hz", rate_hz * 0.975))
     stable_seconds = float(rospy.get_param("~stable_seconds", 5.0))
     check_period = float(rospy.get_param("~check_period", 5.0))
     service_name = "/mavros/cmd/command"

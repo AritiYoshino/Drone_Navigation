@@ -41,6 +41,14 @@
 
 启动脚本不会自动运行 px4ctrl 或发布起飞/目标指令。`drone-nav controller` 是单独的人工入口，会先检查 VINS 重力方向。`drone-nav component goals` 和 `drone-nav takeoff` 也仅在明确执行时运行。
 
+本机 PX4 FMUv6C / 1.16.2 的 IMU 台架配置为 `IMU_INTEG_RATE=400`、`IMU_GYRO_RATEMAX=800`；积分参数保存后需要重启飞控。精确固件版本和实测配置记录见 [config/px4_imu_200hz.yaml](config/px4_imu_200hz.yaml)，启动脚本不会自动写入这些 PX4 参数。重启后直接 USB 的三路 200 Hz 请求实测约 199.3–199.5 Hz；正常 VINS 定位链的三路 IMU 实测约 199.3 Hz，连续 30 秒台架验收通过，详见 [IMU_DIAGNOSIS.md](IMU_DIAGNOSIS.md)。
+
+`drone-nav vins` 的请求器会将 MAVLink 消息 105、31、30 各请求为 200 Hz。其默认最低接收频率为目标的 97.5%，200 Hz 时即 195 Hz；原来的 85% 阈值已提高。完整验收需在 VINS 初始化后连续测量 30 秒，确认 `/mavros/imu/data_raw`、`/mavros/imu/data`、`/uav1/vins_estimator/imu_propagate` 均达到 195–205 Hz 且时间戳递增、数据有限；平均频率达标不表示每包严格间隔 5 ms。
+
+启动初期若视觉里程计正在追赶历史图像，先等其时间戳接近实时再测。此次稳态验收中，两路图像约 15 Hz、视觉里程计约 7.5 Hz，飞控全程连接且未解锁；该结果不代替新机标定或飞行验证。
+
+本次验收结束后已停止测试进程，保留积分 400、gyro 800。USB 空闲消息流恢复为 HIGHRES_IMU/QUAT/ATTITUDE 50/50/100 Hz；下次正常启动定位链时由请求器重新请求三路 200 Hz。
+
 **新机标定与控制参数仍需实机确认。** 相机内外参、相机–飞控 IMU 时间偏移、深度内参、推力模型、机体方向及 PX4 参数来自旧机，软件检查通过不代表这些参数适合新机。先完成拆桨台架与重新标定，再进行飞行验证。此次不刷写飞控固件。
 
 ## 重复配置与构建
