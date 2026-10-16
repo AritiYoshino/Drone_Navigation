@@ -1,1 +1,3 @@
-rostopic pub -1  /px4ctrl/takeoff_land quadrotor_msgs/TakeoffLand "takeoff_land_cmd: 1"
+#!/usr/bin/env bash
+# Manual command only; never called by startup or checks.
+exec bash "$(dirname -- "$(dirname -- "$(readlink -f -- "${BASH_SOURCE[0]}")")")/drone_nav.sh" takeoff "$@"

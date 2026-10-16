@@ -1,10 +1,12 @@
 # 无人机视觉定位与协同导航备份
 
-独立源码/配置文件夹，非压缩包。原项目未修改。
+**当前 Jetson 的安装、启动和硬件测试说明见 [LOCAL_SETUP.md](LOCAL_SETUP.md)。** 新终端使用 `drone-nav doctor` 检查环境，`drone-nav start --dry-run` 查看启动命令。运行源码位于 `/home/amov` 下的独立工作副本；本仓库 `workspaces/` 保留迁移基线。
+
+独立源码/配置文件夹，非压缩包。迁移基线与本机启动工具分别保留。
 
 **移植所需环境、GPU/ROS依赖、编译隔离、话题链、标定和PX4安全事项见 [`MIGRATION_ENVIRONMENT.md`](MIGRATION_ENVIRONMENT.md)。**
 
-GPU全链路原入口为 `scripts/home/vins_quick_start_gpu.sh`；起飞消息脚本为 `scripts/home/takeoff.sh`。它们可能连接真实飞控；未在本次执行。移植并验证前不要启动或起飞。
+GPU 全链路入口 `scripts/home/vins_quick_start_gpu.sh` 现转到 `drone-nav start`，默认启动感知、定位、里程计桥和规划；控制器需另行手动启动。`scripts/home/takeoff.sh` 仍是独立的人工起飞消息入口。硬件接入步骤见本机说明。
 
 - `workspaces/`：EGO/px4ctrl、GPU VINS、RealSense、Kalibr 源码
 - `firmware/`：PX4源码与现有固件文件

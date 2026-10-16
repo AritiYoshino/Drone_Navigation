@@ -1,0 +1,17 @@
+<launch>
+  <arg name="fcu_url" default="/dev/ttyACM0:57600" />
+  <arg name="gcs_url" default="" />
+  <arg name="tgt_system" default="1" />
+  <arg name="tgt_component" default="1" />
+  <!-- Keep the installed MAVROS version's own plugin and transport defaults. -->
+  <include file="$(find mavros)/launch/px4.launch">
+    <arg name="fcu_url" value="$(arg fcu_url)" />
+    <arg name="gcs_url" value="$(arg gcs_url)" />
+    <arg name="tgt_system" value="$(arg tgt_system)" />
+    <arg name="tgt_component" value="$(arg tgt_component)" />
+  </include>
+  <!-- These are the three differences in the archived EGO configuration. -->
+  <param name="/mavros/local_position/frame_id" value="world" />
+  <param name="/mavros/local_position/tf/send" value="true" />
+  <param name="/mavros/local_position/tf/frame_id" value="world" />
+</launch>
