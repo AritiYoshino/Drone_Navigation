@@ -97,7 +97,7 @@ class DroneNavTests(unittest.TestCase):
         self.repo = Path(self.temporary.name) / 'repository with spaces'
         self.scripts = self.repo / 'scripts'
         (self.scripts / 'home').mkdir(parents=True)
-        for name in ('drone_nav.sh', 'nav_env.sh', 'prepare_vins_config.py', 'stop_session.py'):
+        for name in ('drone_nav.sh', 'env.sh', 'nav_env.sh', 'prepare_vins_config.py', 'stop_session.py'):
             shutil.copy2(ROOT / 'scripts' / name, self.scripts / name)
         for name in ('vi_gpu.sh', 'test.sh', 'vins_quick_start_gpu.sh', 'start_drone.sh', 'takeoff.sh'):
             shutil.copy2(ROOT / 'scripts/home' / name, self.scripts / 'home' / name)
@@ -109,7 +109,7 @@ class DroneNavTests(unittest.TestCase):
         for name in ('roscore', 'rosnode', 'roslaunch', 'rosrun', 'rostopic', 'ros-python'):
             (self.mock_bin / name).symlink_to(mock.name)
         # This is deliberately a fixture, not the real environment setup.
-        (self.scripts / 'env.sh').write_text(
+        (self.scripts / 'local_env.sh').write_text(
             'export PATH="$MOCK_BIN:/usr/bin:/bin"\n'
             'export DRONE_ENV_PROFILE="$1"\n'
         )

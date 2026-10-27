@@ -1,20 +1,19 @@
 %YAML:1.0
 ---
+# Source: D:/kalibr-master/results/intrinsics/uav2_1/parameters/double_cam-camchain.yaml (cam0)
 model_type: PINHOLE
 camera_name: infra1_rect
 image_width: 640
 image_height: 480
 
 distortion_parameters:
-   k1: -0.003870579707859219
-   k2: -0.007933170708090008
-   p1: -0.0012013485708556228
-   p2: 0.0010482017949853587
+   k1: -0.016211823420791766
+   k2: -0.005684099727684015
+   p1: 0.0002877539036635753
+   p2: 0.003232583918461515
 
 projection_parameters:
-   fx: 373.2046890633468
-   fy: 373.99920139935665
-   cx: 319.29362305425343
-   cy: 234.57418040343345
-
-
+   fx: 372.88442112929766
+   fy: 373.7589947126433
+   cx: 324.95425385778526
+   cy: 234.36989565386068

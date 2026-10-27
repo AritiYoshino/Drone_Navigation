@@ -46,9 +46,19 @@ drone-nav start
 drone-nav start --headless
 ```
 
-该模式的组件输出在 `runtime/navigation/logs/`，例如 `master.log`、`mavros.log`、`vins.log`、`bridge.log`、`planner.log`。Ctrl+C 停止本次会话；会话中组件退出也会触发其余组件清理。启动日志使用固定组件文件名，后续启动会覆盖。桌面模式由各组件终端管理，关闭相应组件终端停止该组件。
+该模式的组件输出在 `.runtime/logs/`，例如 `master.log`、`mavros.log`、`vins.log`、`bridge.log`、`planner.log`。Ctrl+C 停止本次会话；会话中组件退出也会触发其余组件清理。启动日志使用固定组件文件名，后续启动会覆盖。桌面模式由各组件终端管理，关闭相应组件终端停止该组件。
 
-运行时 VINS 配置生成在 `runtime/navigation/vins_runtime.yaml`，输出与位姿图目录也在 `runtime/navigation/`。生成器调整运行路径，不修改 `config/vins/` 中的原始标定配置。
+默认 VINS 配置目录为 `workspaces/vinsf_gpu_ws/src/VINS-Fusion/config/realsense_d435i/`，其中 `px4_d435_vins_gpu.yaml` 为主配置，`left.yaml`、`right.yaml` 为左右目内参。`drone-nav vins`、`start`、`quick` 和 `component vins` 共用此默认来源，可通过 `--vins-config PATH` 或 `DRONE_VINS_CONFIG` 显式覆盖。
+
+运行时 VINS 配置生成在 `.runtime/vins_runtime.yaml`，输出与位姿图目录也在 `.runtime/`。生成器只调整输出路径和内参引用路径，内外参、时间偏移及算法参数保持与来源一致；左右目内参引用上述工作区文件。VINS 程序仍使用 `runtime/workspaces/vinsf_gpu_ws/` 中的编译副本。
+
+2026-10-27 已将根目录 `config/vins/` 的三个 YAML 完整同步到默认工作区和运行工作区对应目录。后续日常编辑以默认工作区为准，另两处不会自动同步。已打开的终端可能仍导出旧的 `DRONE_VINS_CONFIG`，可用以下命令切换为新默认值，再检查路径：
+
+```bash
+unset DRONE_VINS_CONFIG
+source /home/z/Drone_Navigation_git/scripts/env.sh
+drone-nav vins --dry-run
+```
 
 ## 单独运行组件与手动控制
 
@@ -65,7 +75,7 @@ drone-nav component bridge
 
 | 入口 | ROS 命令 |
 | --- | --- |
-| `drone-nav component vins` | `rosrun vins vins_node .../runtime/navigation/vins_runtime.yaml __ns:=/uav1` |
+| `drone-nav component vins` | `rosrun vins vins_node .../.runtime/vins_runtime.yaml __ns:=/uav1` |
 | `drone-nav component bridge` | `roslaunch px4ctrl vins_to_px4_odom.launch` |
 | `drone-nav component planner` | `roslaunch ego_planner single_run_in_exp.launch` |
 | `drone-nav component rviz` | `roslaunch ego_planner rviz.launch` |
@@ -124,7 +134,7 @@ EGO 使用 `world` 坐标系，单机 ID 为 0，规划轨迹输出 `/drone_0_pl
 
 ## 标定与环境隔离
 
-`config/vins/` 中仍是上一架无人机的双目内参、相机到飞控外参及时间偏移，用于初步诊断。新相机或安装位置/方向变化后，需要重新标定并更新；控制器的质量、推力模型和增益也需按新机核验。已有报告与参数位于 `calibration/`，详细标定步骤见 [MIGRATION_ENVIRONMENT.md](MIGRATION_ENVIRONMENT.md)。
+默认工作区配置目录中的 `left.yaml` 和 `right.yaml` 分别对应 `cam0`（左目）和 `cam1`（右目），分辨率为 640×480；文件中的来源注释记录为 `D:/kalibr-master/results/intrinsics/uav2_1/parameters/double_cam-camchain.yaml`。主配置中的外参来源注释为 `D:/kalibr-master/results/extrinsics/20261025_213352_imu_cam_01733a/parameters/imu_cam-camchain-imucam.yaml`，两个 `T_cam_imu` 取逆后写入 `body_T_cam0/1`。当前 `estimate_extrinsic: 0`，外参固定；`td: -0.022156338918546313` 秒（`t_imu = t_cam + td`），`estimate_td: 1`，时间偏移继续在线细化。上述数值与本次根目录 `config/vins/` 同步来源一致。控制器的质量、推力模型和增益需按新机核验。旧机报告与参数位于 `calibration/`，详细标定步骤见 [docs/KALIBR.md](docs/KALIBR.md)。
 
 相机和控制工作区使用私有修复后的 OpenCV 3.2；GPU VINS 使用私有 CUDA OpenCV 3.3.1 和 CUDA Ceres 2.1。每个启动进程选择自己的环境，避免不同 OpenCV ABI 混入同一个 ROS 进程。手动使用时进入对应 shell：
 
